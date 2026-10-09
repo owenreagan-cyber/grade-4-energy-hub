@@ -1,0 +1,275 @@
+{
+  "auditRole": "RENDERED_GEOMETRY_AUDITOR",
+  "timestampUtc": "2026-10-08T13:58:00Z",
+  "standard": "Exact 1:1 planned vs rendered coordinates & delta Pt",
+  "chapter01": {
+    "plannedCount": 6,
+    "renderedCount": 6,
+    "accountedFor": 6,
+    "missing": 0,
+    "extra": 0,
+    "pairs": [
+      {
+        "blankIndex": 1,
+        "planned": {
+          "context": "Name: __________________________     Homeroom:  \u25cb  4A  \u25cb  4B  \u25cb  4C  \u25cb  4D",
+          "underscores": 26,
+          "fontPt": 12.0,
+          "plannedWidthPt": 162.24
+        },
+        "rendered": {
+          "page": 1,
+          "token": "__________________________",
+          "x0": 81.15,
+          "y0": 180.75,
+          "x1": 237.15,
+          "y1": 197.14,
+          "widthPt": 156.0,
+          "heightPt": 16.39
+        },
+        "deltaWidthPt": 6.24,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 2,
+        "planned": {
+          "context": "energy \u2014 the ability to cause ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 1,
+          "token": "______________",
+          "x0": 222.55,
+          "y0": 469.7,
+          "x1": 320.55,
+          "y1": 488.82,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 3,
+        "planned": {
+          "context": "change \u2014 to become ________________ .",
+          "underscores": 16,
+          "fontPt": 14.0,
+          "plannedWidthPt": 116.48
+        },
+        "rendered": {
+          "page": 1,
+          "token": "________________",
+          "x0": 175.55,
+          "y0": 499.7,
+          "x1": 287.55,
+          "y1": 518.82,
+          "widthPt": 112.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 4.48,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 4,
+        "planned": {
+          "context": "When you see a change, you are seeing _______________ of energy.",
+          "underscores": 15,
+          "fontPt": 14.0,
+          "plannedWidthPt": 109.2
+        },
+        "rendered": {
+          "page": 1,
+          "token": "_______________",
+          "x0": 296.85,
+          "y0": 611.65,
+          "x1": 401.85,
+          "y1": 630.77,
+          "widthPt": 105.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 4.2,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 5,
+        "planned": {
+          "context": "stored energy \u2014 energy that has the ability to cause change at a ___________ tim",
+          "underscores": 11,
+          "fontPt": 14.0,
+          "plannedWidthPt": 80.08
+        },
+        "rendered": {
+          "page": 2,
+          "token": "___________",
+          "x0": 446.5,
+          "y0": 419.55,
+          "x1": 523.5,
+          "y1": 438.67,
+          "widthPt": 77.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.08,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 6,
+        "planned": {
+          "context": "Objects also have stored energy because of their ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 2,
+          "token": "______________",
+          "x0": 355.55,
+          "y0": 719.5,
+          "x1": 453.55,
+          "y1": 738.62,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      }
+    ]
+  },
+  "chapter02": {
+    "plannedCount": 6,
+    "renderedCount": 6,
+    "accountedFor": 6,
+    "missing": 0,
+    "extra": 0,
+    "pairs": [
+      {
+        "blankIndex": 1,
+        "planned": {
+          "context": "Name: __________________________     Homeroom:  \u25cb  4A  \u25cb  4B  \u25cb  4C  \u25cb  4D",
+          "underscores": 26,
+          "fontPt": 12.0,
+          "plannedWidthPt": 162.24
+        },
+        "rendered": {
+          "page": 1,
+          "token": "__________________________",
+          "x0": 81.15,
+          "y0": 180.75,
+          "x1": 237.15,
+          "y1": 197.14,
+          "widthPt": 156.0,
+          "heightPt": 16.39
+        },
+        "deltaWidthPt": 6.24,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 2,
+        "planned": {
+          "context": "motion \u2014 the process of an object changing ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 1,
+          "token": "______________",
+          "x0": 321.0,
+          "y0": 451.7,
+          "x1": 419.0,
+          "y1": 470.82,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 3,
+        "planned": {
+          "context": "A moving object can cause a ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 1,
+          "token": "______________",
+          "x0": 235.45,
+          "y0": 537.65,
+          "x1": 333.45,
+          "y1": 556.77,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 4,
+        "planned": {
+          "context": "Some objects cause their own motion. Other objects are put into motion by ______",
+          "underscores": 12,
+          "fontPt": 14.0,
+          "plannedWidthPt": 87.36
+        },
+        "rendered": {
+          "page": 1,
+          "token": "____________",
+          "x0": 39.7,
+          "y0": 618.5,
+          "x1": 123.7,
+          "y1": 637.62,
+          "widthPt": 84.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.36,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 5,
+        "planned": {
+          "context": "energy of motion \u2014 the energy an object possesses while it is ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 2,
+          "token": "______________",
+          "x0": 430.55,
+          "y0": 98.75,
+          "x1": 528.55,
+          "y1": 117.87,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      },
+      {
+        "blankIndex": 6,
+        "planned": {
+          "context": "All moving objects have energy of ______________ .",
+          "underscores": 14,
+          "fontPt": 14.0,
+          "plannedWidthPt": 101.92
+        },
+        "rendered": {
+          "page": 2,
+          "token": "______________",
+          "x0": 275.2,
+          "y0": 184.7,
+          "x1": 373.2,
+          "y1": 203.82,
+          "widthPt": 98.0,
+          "heightPt": 19.12
+        },
+        "deltaWidthPt": 3.92,
+        "status": "MATCH"
+      }
+    ]
+  }
+}

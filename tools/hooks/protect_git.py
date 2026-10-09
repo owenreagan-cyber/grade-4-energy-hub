@@ -401,12 +401,30 @@ def _inline_decision(script: str, authorization: dict, depth: int) -> dict | Non
     return None
 
 
+def _nonpython_runs_git(body: str) -> bool:
+    """Conservative fallback when the body is not valid Python.
+
+    A non-Python script (for example a JavaScript file handed to ``node``) cannot
+    be scanned with the Python tokenizer. The previous behaviour returned a
+    blanket deny on any ``TokenError``, which blocked every valid non-Python
+    script passed to an interpreter (for example the tracked
+    ``tools/render-pdf.js``) even though it executed no git at all. Instead we
+    approximate the Python scan: an obfuscated payload, or a shell-out API plus a
+    real git invocation anywhere in the body.
+    """
+    if _OBFUSCATED.search(body):
+        return True
+    if not _EXEC_API.search(_code_without_strings(body)):
+        return False
+    return bool(_GIT_CALL.search(body))
+
+
 def _script_runs_git(body: str) -> bool:
     """True when a Python file executes git, not when it only mentions git."""
     try:
         tokens = list(tokenize.generate_tokens(io.StringIO(body).readline))
     except tokenize.TokenError:
-        return True
+        return _nonpython_runs_git(body)
     calls = {
         "system", "popen", "exec", "execSync", "spawn", "eval", "Function",
         "Popen", "run", "check_call", "check_output",

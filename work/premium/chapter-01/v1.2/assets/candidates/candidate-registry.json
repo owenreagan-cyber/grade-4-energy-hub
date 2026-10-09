@@ -1,0 +1,20 @@
+{
+  "schema": "ch1-premium-candidate-registry-v1",
+  "chapter": "Chapter 1 · Energy Causes Change",
+  "candidate": "premium-v1.2",
+  "stage": "PHASE_2B_CANDIDATE_GENERATION",
+  "generated_at": "2026-10-08",
+  "authorization": {
+    "designSpikeAssetCandidateGeneration": "GO",
+    "massAssetProduction": "NOT AUTHORIZED",
+    "nineSlideIntegration": "NOT AUTHORIZED",
+    "fullDeckPropagation": "NOT AUTHORIZED",
+    "frozenV11Modification": "NOT AUTHORIZED",
+    "candidatePromotion": "NOT AUTHORIZED"
+  },
+  "storageRoot": "work/premium/chapter-01/v1.2/assets/candidates",
+  "providers": ["GPT_IMAGES", "GEMINI_STUDIO", "PHOTO_REALITY"],
+  "statusLadder": ["CANDIDATE", "SCIENCE_APPROVED", "ART_APPROVED", "APPROVED", "REJECTED"],
+  "rule": "Every candidate starts CANDIDATE. Science review FIRST. Science-FAIL does not proceed to art review. APPROVED requires Chief final acceptance.",
+  "candidates": []
+}

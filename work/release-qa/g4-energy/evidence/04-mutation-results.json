@@ -1,0 +1,108 @@
+{
+  "auditRole": "FORENSIC_AUDITOR",
+  "timestampUtc": "2026-10-08T13:58:00Z",
+  "epistemologicalPrinciple": "Destructive Verification / Sensor Canary Testing",
+  "canaries": [
+    {
+      "id": "CANARY-1",
+      "type": "Detector Sensor Canary",
+      "description": "Mutate slide semantic label (BQ NOW) to overlap body text by 50px (~0.69 in)",
+      "detectorTarget": "chapter_qa.visual_qa.detect_boxes",
+      "injectedDefect": {
+        "labelBox": {
+          "kind": "text",
+          "text": "BQ NOW",
+          "x": 1.0,
+          "y": 1.0,
+          "w": 2.0,
+          "h": 0.5,
+          "fontPt": 16
+        },
+        "bodyBox": {
+          "kind": "text",
+          "text": "How does energy cause change in moving objects?",
+          "x": 1.5,
+          "y": 1.2,
+          "w": 5.0,
+          "h": 1.0,
+          "fontPt": 14
+        },
+        "overlapXInches": 1.5,
+        "overlapYInches": 0.3
+      },
+      "findingsObserved": [
+        {
+          "severity": "HIGH",
+          "code": "TEXT_OVERLAP",
+          "message": "text boxes overlap",
+          "failsGate": true,
+          "suspicious": true
+        },
+        {
+          "severity": "HIGH",
+          "code": "OBJECT_OVERLAP",
+          "message": "objects overlap",
+          "failsGate": true,
+          "suspicious": true
+        }
+      ],
+      "disposition": "CAUGHT",
+      "failsGate": true
+    },
+    {
+      "id": "CANARY-2",
+      "type": "Detector Sensor Canary",
+      "description": "Inject explicit Answer Leakage: place REVEAL keyword inside WRITE speaker note",
+      "detectorTarget": "chapter_qa.file_producers._leakage_findings",
+      "injectedDefect": {
+        "slide2Text": "WRITE",
+        "slide2SpeakerNotes": "REVEAL motion",
+        "keyAnswer": "motion"
+      },
+      "findingsObserved": [
+        {
+          "severity": "HIGH",
+          "code": "speaker_leak",
+          "message": "answer 'motion' in speaker notes on slide 2"
+        }
+      ],
+      "disposition": "CAUGHT",
+      "failsGate": true
+    },
+    {
+      "id": "CANARY-3",
+      "type": "Detector Sensor Canary",
+      "description": "Break Notes/Slides sync: delete critical vocabulary anchor in notes while leaving on slide",
+      "detectorTarget": "chapter_qa.file_producers._sync_findings",
+      "injectedDefect": {
+        "notesAnchors": [
+          "BQ"
+        ],
+        "slidesAnchors": [
+          "BQ",
+          "N1"
+        ],
+        "expectedAnchors": [
+          "BQ",
+          "N1"
+        ]
+      },
+      "findingsObserved": [
+        {
+          "severity": "BLOCKING",
+          "code": "notes_missing_anchor",
+          "message": "notes missing anchor(s): N1"
+        }
+      ],
+      "disposition": "CAUGHT",
+      "failsGate": true
+    }
+  ],
+  "deterministicTestSuite": {
+    "runner": ".venv/bin/python -m unittest discover tests/chapter_qa",
+    "totalTestsRan": 247,
+    "failures": 0,
+    "errors": 0,
+    "verdict": "PASS"
+  }
+}

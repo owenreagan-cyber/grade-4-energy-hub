@@ -1,0 +1,184 @@
+{
+  "schema": "ch1-notes-slides-sync-v1",
+  "chapter": "Chapter 1 \u00b7 Energy Causes Change",
+  "candidate": "premium-v1.2",
+  "stage": "PLANNING_DRAFT",
+  "notes_source": "production/premium-notes/01-ch1-energy-causes-change-guided-notes.pdf",
+  "slides_source": "production/slides/01-ch1-energy-causes-change-slides.pptx",
+  "generated_at": "2026-10-08",
+  "anchors": [
+    {
+      "anchor": "BQ",
+      "notes_page": 1,
+      "notes_text": "Where can we observe evidence of energy causing change?",
+      "notes_text_hash": "0a3590a7f92ea9f0996a93fe7b788d4e8dbdc592d75ce9889fa8dcb23a5afa4c",
+      "slide_ids": [
+        2,
+        3,
+        33
+      ],
+      "slide_text_hashes": {
+        "2": "530a1893b2b7f9e362a8b697b882dde718aca4ae225269f11d563758f074cacb",
+        "3": "68cb852fde03b811fa63fd6415aba0e68f1588f6bd951d1edbef53fdd4e14df5",
+        "33": "174fa888c0c50e3d74ed3814f42435f8be70a87324bd4cecebe9741c01279a17"
+      },
+      "reveal_sequence": [
+        "TURN_AND_TALK",
+        "WRITE",
+        "WRITE"
+      ],
+      "required_blank_count": 0,
+      "status": "PASS"
+    },
+    {
+      "anchor": "V1",
+      "notes_page": 1,
+      "notes_text": "energy \u2014 the ability to cause ______________ . change \u2014 to become ________________ .",
+      "notes_text_hash": "f683655e2ec63234a4751b8ed6fe1e8cb5d6c49a961226a159db61cdc69c85dd",
+      "slide_ids": [
+        10,
+        11,
+        12
+      ],
+      "slide_text_hashes": {
+        "10": "72ef72992ec65e8f555a4e623dac4ad0bacf32c088e72d8ff7f4eeb81b3ca05a",
+        "11": "0693aafcb5bb450e9fbd61b305298316d57c2e53319ee2622f087053df0421a0",
+        "12": "9e4109c11761abd25568a87e2a7b37f41de46fcd1425932b2666b00a2ca8f1d9"
+      },
+      "reveal_sequence": [
+        "TEACH",
+        "WRITE",
+        "CHECK"
+      ],
+      "required_blank_count": 2,
+      "status": "PASS"
+    },
+    {
+      "anchor": "N1",
+      "notes_page": 1,
+      "notes_text": "Energy has the ability to cause change. When you see a change, you are seeing _______________ of energy.",
+      "notes_text_hash": "26899d0c4d648c51fb2bf79a0bb508c9202f080c71b94320c637a1c6b0cf84c7",
+      "slide_ids": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "slide_text_hashes": {
+        "13": "a40eee4972802df156fc6f3d34151bcb3e20affaf87b3f9052885f7172ac270d",
+        "14": "9cd2bf00b5acceeb9eddd4c50cbc497192c438feb5c729e4a4478a9d60304b85",
+        "15": "65e2bed3fae1a5a325b1c24b5d7a4b81cf6d9cd159b662c5d424ba1cb2bc9c77",
+        "16": "8d1238968b881726fd07b9ae6cfa95cd30f66868ad45bb25bd37d4e031850718"
+      },
+      "reveal_sequence": [
+        "TEACH",
+        "TEACH",
+        "WRITE",
+        "CHECK"
+      ],
+      "required_blank_count": 1,
+      "status": "PASS"
+    },
+    {
+      "anchor": "N2",
+      "notes_page": 2,
+      "notes_text": "Write one example that shows a change for each form. motion sound light heat electrical energy",
+      "notes_text_hash": "a2e0bf1a7ef17aac4e4e7f4bc349483b82f1e53bb0c4c3e2460be9a1c88caff1",
+      "slide_ids": [
+        17,
+        18,
+        19
+      ],
+      "slide_text_hashes": {
+        "17": "dcef2d57d30fbeb59dae1854cda49337014bfea551b4300087590ede40f3e93f",
+        "18": "465b0678ee3775bec93dc9dc41a5bcd8ab7f013198c1ade1886468d4f3101ad6",
+        "19": "71247ef48260f5f580ec0d07ad1efbf6c8d38dbe191890eaa5b9ede78329c881"
+      },
+      "reveal_sequence": [
+        "TEACH",
+        "OBSERVE",
+        "WRITE"
+      ],
+      "required_blank_count": 0,
+      "status": "PASS"
+    },
+    {
+      "anchor": "V2",
+      "notes_page": 2,
+      "notes_text": "stored energy \u2014 energy that has the ability to cause change at a ___________ time.",
+      "notes_text_hash": "ae5a9081803e21eef6d8b81e8d934bc8a9d7090b81c78ce0cfd30a9626d68ede",
+      "slide_ids": [
+        20,
+        21,
+        22
+      ],
+      "slide_text_hashes": {
+        "20": "73a8c0e6eff028a78ee767f21305548524e07559d4f7b40f0de89fd7fe724563",
+        "21": "dd765968662f30c1fe05879cba2459f828e3a84d821787d4b7a6a2d856c9d95a",
+        "22": "e51d32694618fe110c7ac11c3adcd3675df55823fed9ddb220e7cc1a8450039c"
+      },
+      "reveal_sequence": [
+        "TEACH",
+        "WRITE",
+        "CHECK"
+      ],
+      "required_blank_count": 1,
+      "status": "PASS"
+    },
+    {
+      "anchor": "N3",
+      "notes_page": 2,
+      "notes_text": "STORED ENERGY \u2192 RELEASE \u2192 CHANGE. Objects also have stored energy because of their ______________ .",
+      "notes_text_hash": "dd2a4b38cecd154ec22889a30487cfc30a81a850d7ca6885e019c582f12a1029",
+      "slide_ids": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "slide_text_hashes": {
+        "23": "47e25bd8165456c6322d2db5fd91345b1a57d9f13205666f5ebc7d11d269b454",
+        "24": "a10c688251ca1d8895dd28babd9ad829ff31c01e1064e8ad927bc6cf2f05d93d",
+        "25": "1fa0e326e3242490bf6419da1048bc2ad74f6f4e639e1b497fa95ab2f0612187",
+        "26": "553e727844bfe23193606bb4fb56fb0110187a7cc44bb6625765622127dc8422",
+        "27": "47d543725fbc82da5d8607692dfddde601b079b115c169719bf574904b00a875"
+      },
+      "reveal_sequence": [
+        "PREDICT",
+        "TEACH",
+        "TEACH",
+        "WRITE",
+        "CHECK"
+      ],
+      "required_blank_count": 1,
+      "status": "PASS"
+    },
+    {
+      "anchor": "N4",
+      "notes_page": 3,
+      "notes_text": "Draw a change you observed. Show what it looked like BEFORE and AFTER. What changed? How do we know energy is involved if we cannot see energy itself?",
+      "notes_text_hash": "c4e5c3fbe6383b88bf9ac534d1965d35a24f1c8b27cbddf65a8550ff2141d866",
+      "slide_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "slide_text_hashes": {
+        "28": "d213d467146277c6dbd884d279da8e63f4bddd23a635174f7f991d5f0dd9814d",
+        "29": "2d59278be7b3ce5ab11c2467cf372387cb8316085a8cee0d0dc81befe6da44d5",
+        "30": "1826db631ce678062fe43e73736aa832bb30be8a6ef27d1471bc0158c54b16c9",
+        "31": "0e10ffbf025058264479f768d8ceb05596fe956d8b3c184a52f4ae4444c0cf1e"
+      },
+      "reveal_sequence": [
+        "TEACH",
+        "DRAW",
+        "WRITE",
+        "CHECK"
+      ],
+      "required_blank_count": 0,
+      "status": "PASS"
+    }
+  ]
+}

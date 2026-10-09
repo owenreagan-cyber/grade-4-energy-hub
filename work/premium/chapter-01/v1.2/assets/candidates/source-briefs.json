@@ -1,0 +1,182 @@
+{
+  "schema": "ch1-premium-source-briefs-v1",
+  "generated_at": "2026-10-08",
+  "briefs": {
+    "CH1-HERO-01": {
+      "brief": {
+        "concept": "chapter opener / Discovery-Evidence",
+        "mustCommunicate": "A change is the clue that energy was involved (an investigation).",
+        "mustNotCommunicate": "The answer EVIDENCE (hidden until slide 16); energy as a visible substance; advanced vocabulary.",
+        "lockedText": "none in artwork; reserve clean backdrop for title overlay",
+        "composition": "16:9 cinematic before/after scene + subtle ENERGY->CHANGE->? glyph; third node '?'; 40pt safe inset",
+        "scienceConstraints": "no visible energy beam; no energy=glow"
+      },
+      "sourceBriefHash": "edd096ea1ca0bc04af6b6ce5c3d558bed26169699018fc45feb6b61f6586ae8d"
+    },
+    "CH1-DARK-BRIGHT-01": {
+      "brief": {
+        "concept": "observable change (dark->bright room)",
+        "mustCommunicate": "The room 'became different' - that is a change.",
+        "mustNotCommunicate": "a visible energy beam; energy as a substance.",
+        "lockedText": "none in photo (labels overlaid)",
+        "composition": "two equal side-by-side panels; identical framing/crop for DARK and BRIGHT",
+        "scienceConstraints": "light change visibly obvious; no energy ray"
+      },
+      "sourceBriefHash": "2acba44266db54e7deb316880797a68a767298b90e7bba3252ff8fa68ccf7d1a"
+    },
+    "CH1-PENCIL-BEFORE-01": {
+      "brief": {
+        "concept": "dull pencil BEFORE (demo)",
+        "mustCommunicate": "a dull, quiet pencil.",
+        "mustNotCommunicate": "any post-sharpening state in this image.",
+        "lockedText": "none (label BEFORE overlaid)",
+        "composition": "single subject (dull tip + sharpener), 50-65% of frame",
+        "scienceConstraints": "must read as dull/unsharpened"
+      },
+      "sourceBriefHash": "6d64278cb93692018ff8578e96e09a8baadd94e3a8e8ac1167ab0f7cebb5ccb3"
+    },
+    "CH1-PENCIL-AFTER-01": {
+      "brief": {
+        "concept": "sharpened pencil AFTER (demo)",
+        "mustCommunicate": "the pencil is now shorter and sharper.",
+        "mustNotCommunicate": "the sound 'hum' as visible; unobserved heat.",
+        "lockedText": "none (label AFTER overlaid)",
+        "composition": "identical framing/crop to BEFORE; same subject/angle",
+        "scienceConstraints": "change obvious vs BEFORE; matched framing mandatory"
+      },
+      "sourceBriefHash": "d6340eafa9dcdc8d1b5fd64b7a1b1a1a5691f72a1d4dd008994a8382862aa13f"
+    },
+    "CH1-VOC-ENERGY-01": {
+      "brief": {
+        "concept": "energy = ability to cause change",
+        "mustCommunicate": "energy - the ability to cause change; an object mid-change.",
+        "mustNotCommunicate": "energy as visible glow/substance; advanced vocab.",
+        "lockedText": "TERM=energy | DEFINITION=the ability to cause change | FOOTER=Reader p. 1 (rendered by Cursor, NOT by image model)",
+        "composition": "560x360pt card; hero visual 50-65%; reserved region for deterministic text overlay",
+        "scienceConstraints": "hero object visibly changing; no energy-inside depiction"
+      },
+      "sourceBriefHash": "ac5fe3e966866dab408815a920d07f60f1cc545b69bede34a812af0d553026d9"
+    },
+    "CH1-VOC-CHANGE-01": {
+      "brief": {
+        "concept": "change = to become different",
+        "mustCommunicate": "change - to become different; one concrete before/after difference.",
+        "mustNotCommunicate": "abstract change swirl; ambiguous states.",
+        "lockedText": "TERM=change | DEFINITION=to become different | FOOTER=Reader p. 1 (rendered by Cursor)",
+        "composition": "560x360pt card; before/after hero 50-65%",
+        "scienceConstraints": "one concrete observable difference only"
+      },
+      "sourceBriefHash": "02175432442c6ffb3a9e11a67401e86181406c69cafe4626ae2b11077092dfd8"
+    },
+    "CH1-MODEL-ECE-01": {
+      "brief": {
+        "concept": "ENERGY -> CHANGE -> EVIDENCE model",
+        "mustCommunicate": "ENERGY -> CHANGE -> EVIDENCE; a change you observe is evidence energy was involved.",
+        "mustNotCommunicate": "mechanism arrows (wave physics); energy visible in the wave; advanced vocab.",
+        "lockedText": "ENERGY | CHANGE | EVIDENCE (EVIDENCE revealed only on slide 16)",
+        "composition": "three navy nodes left->right, gold arrows, large labels; third node as separate reveal layer",
+        "scienceConstraints": "arrows = model not mechanism; reveal order preserved"
+      },
+      "sourceBriefHash": "142504769d350f062b14a1c3fe67b811f9bb1ec5409bec0b60236682c1930ae5"
+    },
+    "CH1-FORMS-MOTION-01": {
+      "brief": {
+        "concept": "motion energy (five-forms family)",
+        "mustCommunicate": "recognizable moving object / carousel / ball; observable motion.",
+        "mustNotCommunicate": "abstract streak effects as the science.",
+        "lockedText": "label=motion (rendered by Cursor)",
+        "composition": "five-form family card; one concrete example + change cue",
+        "scienceConstraints": "observable motion, not abstract streaks"
+      },
+      "sourceBriefHash": "84076453d9c7827c1c2e8406b23ce010810ffaf5ac44c42280805a70b462a9f1"
+    },
+    "CH1-FORMS-SOUND-01": {
+      "brief": {
+        "concept": "sound energy (five-forms family)",
+        "mustCommunicate": "recognizable sound-producing object; subtle vibration cue allowed.",
+        "mustNotCommunicate": "visible sound rays as literal matter.",
+        "lockedText": "label=sound (rendered by Cursor)",
+        "composition": "five-form family card; one concrete example + change cue",
+        "scienceConstraints": "no compression-wave detail; no literal sound rays"
+      },
+      "sourceBriefHash": "3bfef84ecc09a5a82df13f50e936fda05325d6c7703e711351c0e34da6c5f383"
+    },
+    "CH1-FORMS-LIGHT-01": {
+      "brief": {
+        "concept": "light energy (five-forms family)",
+        "mustCommunicate": "real luminous source visibly illuminating an environment/object.",
+        "mustNotCommunicate": "radiant-energy terminology.",
+        "lockedText": "label=light (rendered by Cursor)",
+        "composition": "five-form family card; one concrete example + change cue",
+        "scienceConstraints": "luminous source illuminating environment"
+      },
+      "sourceBriefHash": "9092c601e00710770822aa6f6ebdca69ded42e47e91ede9704c8041810841bc4"
+    },
+    "CH1-FORMS-HEAT-01": {
+      "brief": {
+        "concept": "heat energy (five-forms family)",
+        "mustCommunicate": "real warm/hot object with plausible observable context.",
+        "mustNotCommunicate": "unnecessary flame imagery.",
+        "lockedText": "label=heat (rendered by Cursor)",
+        "composition": "five-form family card; one concrete example + change cue",
+        "scienceConstraints": "heat as temperature change (warming), not fire"
+      },
+      "sourceBriefHash": "22d98713809d50f77c057ac09fd6113549ab148803189ce8f79eaf2f827f4101"
+    },
+    "CH1-FORMS-ELECTRICAL-01": {
+      "brief": {
+        "concept": "electrical energy (five-forms family)",
+        "mustCommunicate": "powered real-world device/source producing an observable change.",
+        "mustNotCommunicate": "speculative electron mechanics.",
+        "lockedText": "label=electrical energy (rendered by Cursor)",
+        "composition": "five-form family card; one concrete example + change cue",
+        "scienceConstraints": "no electron/current mechanics"
+      },
+      "sourceBriefHash": "10281974899b2e23a03f57b5fcd97149befcf3608368efe88ec8f567a8b26d2b"
+    },
+    "CH1-VOC-STORED-ENERGY-01": {
+      "brief": {
+        "concept": "stored energy = cause change later",
+        "mustCommunicate": "stored energy - energy that has the ability to cause change at a later time; a still-but-stored object.",
+        "mustNotCommunicate": "stored energy = moving; energy visible inside object; kinetic/potential vocab.",
+        "lockedText": "TERM=stored energy | DEFINITION=energy that has the ability to cause change at a later time | FOOTER=Reader p. 4 (rendered by Cursor)",
+        "composition": "560x360pt card; hero visual 50-65%; STILL->LATER->CHANGE cue optional",
+        "scienceConstraints": "object STILL while storing; no energy-inside art"
+      },
+      "sourceBriefHash": "0edb29384ae2f227fee9fe12cb3f9dd7482c1888879cd18b002b15f653da715f"
+    },
+    "CH1-STORED-BATTERY-01": {
+      "brief": {
+        "concept": "still battery stores energy",
+        "mustCommunicate": "a battery in an OFF flashlight.",
+        "mustNotCommunicate": "visible energy inside the battery; a lit state in this image.",
+        "lockedText": "none (label overlaid)",
+        "composition": "flashlight (off) + battery visible; high contrast",
+        "scienceConstraints": "flashlight clearly OFF (still, stored)"
+      },
+      "sourceBriefHash": "45193b93cd2b14682dd7120d66a7c8e5c13e4bfffb5904129c745a7a46afc03c"
+    },
+    "CH1-STORED-RUBBER-BAND-01": {
+      "brief": {
+        "concept": "stretched rubber band stores energy",
+        "mustCommunicate": "a stretched (not yet released) rubber band.",
+        "mustNotCommunicate": "the release outcome in the same image.",
+        "lockedText": "none (label overlaid)",
+        "composition": "stretched band between fingers; high contrast",
+        "scienceConstraints": "band STRETCHED but NOT yet released"
+      },
+      "sourceBriefHash": "026c13996f3f129c88b2e444c00b1e684d51af6eadced09b4c7f95450c26f444"
+    },
+    "CH1-STORED-RAISED-APPLE-01": {
+      "brief": {
+        "concept": "position relates to stored energy",
+        "mustCommunicate": "an apple held above the ground (position/height).",
+        "mustNotCommunicate": "gravitational potential energy label; fall outcome as required content.",
+        "lockedText": "none (label overlaid)",
+        "composition": "apple held high vs ground reference; obvious height difference",
+        "scienceConstraints": "show position, not motion; no energy-inside-apple"
+      },
+      "sourceBriefHash": "0ff59bf02292725ac85ea368a88b2ff56807ce77f2d51899d8c4b429db35e41d"
+    }
+  }
+}

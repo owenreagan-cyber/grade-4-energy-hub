@@ -1,0 +1,470 @@
+{
+  "auditRole": "INTEGRITY_AUDITOR",
+  "timestampUtc": "2026-10-08T13:58:00Z",
+  "description": "AST dump of critical layout components for Chapter 1 and Chapter 2",
+  "chapter01": {
+    "slidesLayout": {
+      "deckPath": "production/slides/01-ch1-energy-causes-change-slides.pptx",
+      "slideCount": 45,
+      "slides": [
+        {
+          "slide": 1,
+          "text": "\n\nCHAPTER 1 \u00b7 GRADE 4 \u00b7 WEEK 1\nEnergy Causes Change\nDiscovery / Evidence\nWhere can we observe evidence of energy causing change?\nENERGY\n\nCHANGE\n\n?\nUnit 1 \u00b7 Energy Transfer &amp; Transformation\n1\n",
+          "hidden": false,
+          "notes": "\nMODE Title \u00b7 orient\nTIME 1 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE Guided Notes (not yet open)\nASK What do you think energy does?\nLISTEN FOR words like move, change, power\nNEXT Flip the lights as you open the Big Question.\nSESSIONS Mon: slides 1-3, 6-16 (optional 4-5) \u00b7 Tue: slides 2, 17, 19-27 (18 is OPTIONAL) \u00b7 Fri: slides 2 then 28-31, 33 (optional 32), then the quiz. Slides 34-45 = optional review.\n"
+        },
+        {
+          "slide": 2,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nBQ\nTURN &amp; TALK\nBig Question\n\nWhere can we observe evidence of energy causing change?\nKeep it in mind all chapter. We will come back to it.\nThink: What is ONE change you have seen happen?\n2\n",
+          "hidden": false,
+          "notes": "\nMODE BQ \u00b7 introduce\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 2 min \u00b7 RE-ENTRY: Sessions 2 and 3 also open on this slide (re-read the Big Question; ask 'What evidence have we collected so far?') - 1 / 0.5 min\nSTUDENT RESOURCE Guided Notes p.1 (BQ box)\nASK What change have you seen happen today?\nLISTEN FOR any observable change (light, sound, movement)\nREVEAL Do not answer the BQ yet \u2014 we collect evidence first.\nNEXT Session 1: My first thinking (slide 3) \u00b7 Session 2: Forms of energy (slide 17) \u00b7 Session 3: Recognizing evidence (slide 28).\n"
+        },
+        {
+          "slide": 3,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nN\nWRITE\nBQ\nBig Question \u2014 My first thinking\nGuided Notes p. 1\nWhere can we observe evidence of energy causing change?\nMy first thinking\n\n\nWrite 1\u20132 quick ideas. No wrong answer yet.\n3\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 BQ anchor\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 2 min\nSTUDENT RESOURCE Guided Notes p.1 top\nASK What change have you seen? Write your first idea.\nLISTEN FOR students naming a change (not 'energy')\nMISCONCEPTION Accept any change; do not correct yet.\nNEXT Observe the light switch.\n"
+        },
+        {
+          "slide": 4,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nOBSERVE\nWhat changed?\nReader p. 1 \u2014 you walk into a dark room and flip a switch.\n\nDARK room\nhard to see\n\nBRIGHT room\nlight fills the room\nSomething became different.\nThat is a change.\n4\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 observe\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 OPTIONAL - skip freely \u00b7 2 min\nSTUDENT RESOURCE Reader p.1\nASK What changed when I flipped the switch?\nLISTEN FOR 'the room got bright' / 'light came on'\nREVEAL The room changed from dark to light \u2014 a change.\nNEXT Notice &amp; wonder.\n"
+        },
+        {
+          "slide": 5,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nTURN &amp; TALK\nI notice\u2026  I wonder\u2026\n\nI NOTICE\nThe room is different now.\nLight is everywhere.\n\nI WONDER\nWhat made the light\nchange so fast?\nShare one notice and one wonder with a partner.\n5\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 discuss\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 OPTIONAL - skip freely \u00b7 2 min\nSTUDENT RESOURCE none\nASK What did you notice? What do you wonder?\nLISTEN FOR change words and curiosity\nNEXT Electric pencil sharpener demo.\n"
+        },
+        {
+          "slide": 6,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nOBSERVE\nElectric Pencil Sharpener\nObserve the pencil BEFORE we sharpen it.\n\nBEFORE\nA dull pencil \u2014 tip is flat, and it is quiet.\nLook closely. What do you see? What do you hear?\n6\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 observe\nTIME 1 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE none (live demo)\nASK What does the pencil look and sound like right now?\nLISTEN FOR dull, flat, quiet, still\nNEXT Predict before sharpening.\n"
+        },
+        {
+          "slide": 7,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nPREDICT\nPredict: what will change?\nThink before we turn it on.\n\nWhen the sharpener runs, the pencil will\u2026\nget  ____________________\nMake a prediction. Say it to your partner.\n7\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 predict\nTIME 1 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE none\nASK What will change about the pencil? The sharpener?\nLISTEN FOR shorter, sharper, noise\nREVEAL Do not confirm yet \u2014 run the demo.\nNEXT Observe the change.\n"
+        },
+        {
+          "slide": 8,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nOBSERVE\nWhat changed?\n\nBEFORE\ndull tip \u00b7 quiet\n\nAFTER\nshorter \u00b7 sharper \u00b7 humming\n\nCHANGES\n\u2022 the tip is sharper\n\u2022 the pencil is shorter\n\u2022 it makes a sound\n8\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 observe\nTIME 3 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 3 min\nSTUDENT RESOURCE none\nASK Name every change you saw or heard.\nLISTEN FOR shorter, sharper, noise\nREVEAL Record all three changes.\nNEXT Turn changes into evidence.\n"
+        },
+        {
+          "slide": 9,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nD\nEXPLAIN\nHow do we know energy was involved?\nEnergy can be invisible. We look for the change.\nENERGY\n\nCHANGE\n\n?\nThe pencil got shorter and sharper and made a sound.\nThose changes are clues that energy was involved.\n9\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 evidence\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 2 min\nSTUDENT RESOURCE Reader p.2 (Change Is Evidence of Energy)\nASK How do we know energy was here if we can't see it?\nLISTEN FOR 'we saw the change' / 'clues'\nREVEAL The word EVIDENCE is introduced from the Reader on slide 14 - do not name it here; the '?' box stays open.\nMISCONCEPTION We see the change, not the energy itself.\nNEXT Vocabulary: energy + change.\n"
+        },
+        {
+          "slide": 10,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nV\nVocabulary \u2014 Energy &amp; Change\nReader p. 1\n\n\nTEACH\nVOCABULARY\nenergy\nthe ability to cause change\n\nENERGY\n\nCHANGE\nReader p. 1\n\n\nTEACH\nVOCABULARY\nchange\nto become different\n\nBEFORE\n\nAFTER\nReader p. 1\n10\n",
+          "hidden": false,
+          "notes": "\nMODE Vocabulary \u00b7 TEACH\nTIME 3 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 3 min\nSTUDENT RESOURCE Guided Notes V1\nASK Read each definition together. Use each word in a sentence.\nLISTEN FOR 'energy causes change' and 'to become different'\nREVEAL Full definitions shown \u2014 these are the two V1 terms.\nNEXT Record V1 on notes.\n"
+        },
+        {
+          "slide": 11,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nN\nWRITE\nV1\nVocabulary \u2014 Energy &amp; Change\nGuided Notes \u00b7 Reader p. 1\nenergy \u2014 the ability to cause _______ .\nchange \u2014 to become _________ .\nWrite the missing word in each blank.\n11\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 V1 anchor\nTIME 2 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 2 min\nSTUDENT RESOURCE Guided Notes V1 (Reader p.1)\nASK Fill in each blank.\nLISTEN FOR 'change' and 'different'\nREVEAL Reveal after students write.\nNEXT Check answers.\n"
+        },
+        {
+          "slide": 12,
+          "text": "\n\nCHAPTER 1 \u00b7 ENERGY CAUSES CHANGE\nN\nCHECK\nV1\nVocabulary \u2014 Energy &amp; Change\nGuided Notes \u00b7 Reader p. 1\nenergy \u2014 the ability to cause change .\nchange \u2014 to become different .\nchange  \u00b7  different\n12\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 V1 reveal\nTIME 0.5 min\nPLAN Session 1 (Mon 10/12) \u00b7 REQUIRED \u00b7 0.5 min\nSTUDENT RESOURCE Guided Notes V1\nREVEAL change \u00b7 different\nNEXT Energy Causes Change (N1).\n"
+        }
+      ]
+    },
+    "guidedNotesLayout": {
+      "docPath": "production/premium-notes/01-ch1-energy-causes-change-guided-notes.docx",
+      "paragraphCount": 54,
+      "tables": [
+        [
+          [
+            "guided notes"
+          ]
+        ],
+        [
+          [
+            "bq where can we observe evidence of energy causing change?"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "v1 vocabulary \u2014 energy &amp; change"
+          ]
+        ],
+        [
+          [
+            "n1 energy causes change"
+          ]
+        ],
+        [
+          [
+            "energy",
+            "\u2192",
+            "change",
+            "\u2192",
+            ""
+          ]
+        ],
+        [
+          [
+            "n2 energy occurs in different forms"
+          ]
+        ],
+        [
+          [
+            "form",
+            "one example that shows a change"
+          ],
+          [
+            "motion",
+            ""
+          ],
+          [
+            "sound",
+            ""
+          ],
+          [
+            "light",
+            ""
+          ],
+          [
+            "heat",
+            ""
+          ],
+          [
+            "electrical energy",
+            ""
+          ]
+        ],
+        [
+          [
+            "v2 vocabulary \u2014 stored energy"
+          ]
+        ],
+        [
+          [
+            "n3 objects can store energy"
+          ]
+        ],
+        [
+          [
+            "stored energy",
+            "\u2192",
+            "release",
+            "\u2192",
+            "change"
+          ]
+        ],
+        [
+          [
+            "example",
+            "what change could happen later?"
+          ],
+          [
+            "battery (in a flashlight)",
+            ""
+          ],
+          [
+            "stretched rubber band",
+            ""
+          ],
+          [
+            "raised object (apple)",
+            ""
+          ]
+        ],
+        [
+          [
+            "n4 recognizing evidence"
+          ]
+        ],
+        [
+          [
+            "before",
+            "after"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "check your thinking"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "bq \u00b7 now i think where can we observe evidence of energy causing change?"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      ],
+      "anchors": [
+        "BQ",
+        "V1",
+        "N1",
+        "N2",
+        "V2",
+        "N3",
+        "N4"
+      ]
+    }
+  },
+  "chapter02": {
+    "slidesLayout": {
+      "deckPath": "production/slides/02-ch2-moving-objects-have-energy-slides.pptx",
+      "slideCount": 37,
+      "slides": [
+        {
+          "slide": 1,
+          "text": "\n\nCHAPTER 2 \u00b7 GRADE 4 \u00b7 WEEK 1\nMoving Objects Have Energy\nMotion  \u00b7  How do we know a moving object has energy?\nMOVING OBJECT\n\nCHANGE\n\nEVIDENCE\nUnit 1 \u00b7 Energy Transfer &amp; Transformation\n1\n",
+          "hidden": false,
+          "notes": "\nMODE Title \u00b7 orient\nTIME 1 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE Guided Notes (not yet open)\nASK What can a moving object do to other things?\nLISTEN FOR words like move, hit, change\nNEXT Open the Big Question.\n"
+        },
+        {
+          "slide": 2,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nBQ\nTURN &amp; TALK\nBig Question\n\nHow are energy, change, and movement of objects related?\nKeep it in mind all chapter. We will come back to it.\nThink: What is ONE change a moving object can cause?\n2\n",
+          "hidden": false,
+          "notes": "\nMODE BQ \u00b7 introduce\nTIME 2 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2 min \u00b7 RE-ENTRY: Session 2 also opens on this slide (1 min)\nSTUDENT RESOURCE Guided Notes p.1 (BQ box)\nASK What change have you seen a moving object cause?\nLISTEN FOR hit, knock over, push, move\nREVEAL Do not answer the BQ yet \u2014 we collect evidence first.\nNEXT My first thinking.\n"
+        },
+        {
+          "slide": 3,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nN\nWRITE\nBQ\nBig Question \u2014 My first thinking\nGuided Notes p. 1\nHow are energy, change, and movement of objects related?\nMy first thinking\n\n\nWrite 1\u20132 quick ideas. No wrong answer yet.\n3\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 BQ anchor\nTIME 2 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2 min\nSTUDENT RESOURCE Guided Notes p.1 top\nASK What change can a moving object cause? Write your first idea.\nLISTEN FOR students naming a change (not 'energy')\nMISCONCEPTION Accept any change; do not correct yet.\nNEXT Observe the marble collision.\n"
+        },
+        {
+          "slide": 4,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nD\nOBSERVE\nMarble Collision \u2014 before\nOne marble sits still. Another marble rolls toward it.\n\nBEFORE\nA target marble is still.\nA moving marble rolls toward it.\nObserve closely. What do you see BEFORE the marbles touch?\n4\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 observe\nTIME 1 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE none (live demo)\nASK What does each marble look like right now?\nLISTEN FOR still, rolling, moving\nNEXT Predict what will happen.\n"
+        },
+        {
+          "slide": 5,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nD\nPREDICT\nPredict: what will happen?\nThink before the moving marble reaches the still marble.\n\nWhen the moving marble hits the still marble, the still marble will\u2026\nget  ____________________\nMake a prediction. Say it to your partner.\n5\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 predict\nTIME 1 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 1 min\nSTUDENT RESOURCE none\nASK What will happen to the still marble?\nLISTEN FOR 'it will start moving'\nREVEAL Do not confirm yet \u2014 run the demo.\nNEXT Observe the change.\n"
+        },
+        {
+          "slide": 6,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nD\nOBSERVE\nWhat changed?\n\nBEFORE\ntarget marble still\n\nAFTER\ntarget marble now moving\n\nCHANGES\n\u2022 the still marble starts to move\n6\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 observe\nTIME 2.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2.5 min\nSTUDENT RESOURCE none\nASK Name every change you saw.\nLISTEN FOR 'the still marble moved'\nREVEAL The target marble changed from still to moving.\nNEXT Turn the change into evidence.\n"
+        },
+        {
+          "slide": 7,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nD\nEVIDENCE\nHow do we know the marble had energy?\nEnergy can be invisible. We look for the change.\nMOVING OBJECT\n\nCHANGE\n\nEVIDENCE\nThe still marble started to move.\nThat change is evidence that the moving marble had energy.\n7\n",
+          "hidden": false,
+          "notes": "\nMODE Demo \u00b7 evidence\nTIME 1.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 1.5 min\nSTUDENT RESOURCE Reader p.9\nASK How do we know the moving marble had energy if we can't see energy?\nLISTEN FOR 'we saw the change'\nMISCONCEPTION We see the change, not the energy itself.\nNEXT Vocabulary: motion.\n"
+        },
+        {
+          "slide": 8,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nV\nVocabulary \u2014 Motion\nReader p. 7\n\n\nTEACH\nVOCABULARY\nmotion\nthe process of an object changing position\n\nSTILL\n\nMOVING\nReader p. 7\n8\n",
+          "hidden": false,
+          "notes": "\nMODE Vocabulary \u00b7 TEACH\nTIME 2.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2.5 min\nSTUDENT RESOURCE Guided Notes V1 (Reader p.7)\nASK When is an object in motion?\nLISTEN FOR 'when it changes position / moves'\nREVEAL motion = the process of an object changing position.\nNEXT Record V1 on notes.\n"
+        },
+        {
+          "slide": 9,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nN\nWRITE\nV1\nVocabulary \u2014 Motion\nGuided Notes \u00b7 Reader p. 7\nmotion \u2014 the process of an object changing ________ .\nWrite the missing word in the blank.\n9\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 V1 anchor\nTIME 1.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 1.5 min\nSTUDENT RESOURCE Guided Notes V1 (Reader p.7)\nASK Fill in the blank.\nLISTEN FOR 'position'\nREVEAL Reveal after writing.\nNEXT Check answer.\n"
+        },
+        {
+          "slide": 10,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nN\nCHECK\nV1\nVocabulary \u2014 Motion\nGuided Notes \u00b7 Reader p. 7\nmotion \u2014 the process of an object changing position .\nposition\n10\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 V1 reveal\nTIME 0.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 0.5 min\nSTUDENT RESOURCE Guided Notes V1\nREVEAL position\nNEXT Moving Objects Can Cause Changes (N1).\n"
+        },
+        {
+          "slide": 11,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nR\nRECITE\nWhat can a moving object do?\nReader p. 8 \u2014 think before you write.\n\nSome objects start their own motion.\nA ball does not.\nPlayers cause their own motion. A ball does not. Something else puts the ball into motion.\n11\n",
+          "hidden": false,
+          "notes": "\nMODE Read \u00b7 concept\nTIME 2 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2 min\nSTUDENT RESOURCE Reader p.8\nASK How does a ball get put into motion?\nLISTEN FOR a kick, a throw, or another push\nREVEAL Do not say the notes words yet. Students write first.\nNEXT Record N1 on notes.\n"
+        },
+        {
+          "slide": 12,
+          "text": "\n\nCHAPTER 2 \u00b7 MOVING OBJECTS HAVE ENERGY\nN\nWRITE\nN1\nWrite the Missing Words\nGuided Notes \u00b7 Reader p. 8\nA moving object can cause a ______ .\nPlayers cause their own motion. A ball does not. Something else puts the ball into motion.\nSome objects cause their own motion. Other objects are put into motion by _______ motion.\n12\n",
+          "hidden": false,
+          "notes": "\nMODE Notes \u00b7 N1 anchor\nTIME 2.5 min\nPLAN Session 1 (Wed 10/14) \u00b7 REQUIRED \u00b7 2.5 min\nSTUDENT RESOURCE Guided Notes N1 (Reader p.8)\nASK Fill in the two blanks.\nLISTEN FOR the two missing words\nREVEAL Reveal after writing.\nNEXT Check answers.\n"
+        }
+      ]
+    },
+    "guidedNotesLayout": {
+      "docPath": "production/premium-notes/02-ch2-moving-objects-have-energy-guided-notes.docx",
+      "paragraphCount": 42,
+      "tables": [
+        [
+          [
+            "guided notes"
+          ]
+        ],
+        [
+          [
+            "bq how are energy, change, and movement of objects related?"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "v1 vocabulary \u2014 motion"
+          ]
+        ],
+        [
+          [
+            "n1 moving objects can cause changes"
+          ]
+        ],
+        [
+          [
+            "v2 vocabulary \u2014 energy of motion"
+          ]
+        ],
+        [
+          [
+            "n2 moving objects have energy"
+          ]
+        ],
+        [
+          [
+            "moving object",
+            "\u2192",
+            "change",
+            "\u2192",
+            "evidence"
+          ]
+        ],
+        [
+          [
+            "observe marble collision \u2014 one moving marble rolls into a target marble."
+          ]
+        ],
+        [
+          [
+            "before",
+            "after"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "n3 people use the energy of motion"
+          ]
+        ],
+        [
+          [
+            "moving object",
+            "what change does it cause?"
+          ],
+          [
+            "hammer (swinging)",
+            ""
+          ],
+          [
+            "pendulum (swinging)",
+            ""
+          ],
+          [
+            "wind (moving air)",
+            ""
+          ]
+        ],
+        [
+          [
+            "check your thinking"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "bq \u00b7 now i think how are energy, change, and movement of objects related?"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      ],
+      "anchors": [
+        "BQ",
+        "V1",
+        "N1",
+        "V2",
+        "N2",
+        "N3",
+        "CHECK",
+        "BQ_RETURN"
+      ]
+    }
+  }
+}

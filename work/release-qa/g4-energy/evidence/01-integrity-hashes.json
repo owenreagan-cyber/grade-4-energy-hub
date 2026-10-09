@@ -1,0 +1,509 @@
+{
+  "auditTarget": "Grade 4 Energy Ch 1-2 Current-Standard Spot Audit",
+  "timestampUtc": "2026-10-08T13:58:00Z",
+  "canonicalRepo": "/Users/owen/Projects/grade-4-energy-transfer-transformation",
+  "git": {
+    "head": "5544450647525d3ddc065b045268b1af40270130",
+    "branch": "main",
+    "worktreeStatus": "worktree: dirty/preserved",
+    "untrackedPrefixes": [
+      "qa/ipad-artifact-qa/",
+      "tools/ch3_*"
+    ]
+  },
+  "sandbox": {
+    "path": "/Users/owen/Projects/grade-4-energy-transfer-transformation-sandbox-ch12",
+    "mechanism": "APFS copy-on-write clone (cp -c -R)",
+    "isolationVerified": true
+  },
+  "frozenGate": {
+    "gateId": "FROZEN_BYTES",
+    "decision": "ALLOW",
+    "registryOk": true,
+    "frozenCount": 42,
+    "mismatches": [],
+    "registrySha256": "4676567ff776ffd502e4c6bf922a5bb4556290fa096c5e3592c9e24f7f342564",
+    "files": {
+      "production/answer-keys/01-ch1-energy-causes-change-practice-key.md": {
+        "expected": "4f9ae2da83dad6f5db55c08a7e2c323657a06b85c834e66714b35570665de53a",
+        "actual": "4f9ae2da83dad6f5db55c08a7e2c323657a06b85c834e66714b35570665de53a",
+        "match": true
+      },
+      "production/answer-keys/01-ch1-energy-causes-change-quiz-key.md": {
+        "expected": "e80ebd1775b4140a7c1214a86759c9041b2a005b923b55d01bb1b128ef59796b",
+        "actual": "e80ebd1775b4140a7c1214a86759c9041b2a005b923b55d01bb1b128ef59796b",
+        "match": true
+      },
+      "production/answer-keys/01-ch1-energy-detectives-key.md": {
+        "expected": "71bd09b1a4da803370da0643c09d8df9f4028eb433d9cbd39f0128a71c92e8f1",
+        "actual": "71bd09b1a4da803370da0643c09d8df9f4028eb433d9cbd39f0128a71c92e8f1",
+        "match": true
+      },
+      "production/answer-keys/02-ch2-friday-flex-key.md": {
+        "expected": "487040075ae8fc557f72b4d33378c25ba84ded8239d4df145459457abc37d771",
+        "actual": "487040075ae8fc557f72b4d33378c25ba84ded8239d4df145459457abc37d771",
+        "match": true
+      },
+      "production/answer-keys/02-ch2-moving-marbles-key.md": {
+        "expected": "14be14b8dfa9012281cb43f0657cab3987a4fc5c795b05ab68bb4ab02371dc2b",
+        "actual": "14be14b8dfa9012281cb43f0657cab3987a4fc5c795b05ab68bb4ab02371dc2b",
+        "match": true
+      },
+      "production/answer-keys/02-ch2-moving-objects-have-energy-practice-key.md": {
+        "expected": "30a5a172a03c0a7038da489961683579cd5e99f3c7d53a18ba0578247d4fa0f5",
+        "actual": "30a5a172a03c0a7038da489961683579cd5e99f3c7d53a18ba0578247d4fa0f5",
+        "match": true
+      },
+      "production/answer-keys/02-ch2-moving-objects-have-energy-quiz-key.md": {
+        "expected": "4d4037b8842466d9f5d1408cb61c63897af8e394d25902501408332c89d2f8cd",
+        "actual": "4d4037b8842466d9f5d1408cb61c63897af8e394d25902501408332c89d2f8cd",
+        "match": true
+      },
+      "production/labs/01-ch1-energy-detectives-teacher-spec.md": {
+        "expected": "83d7786662aa06336b768f0ce4771512a8038e3fd1603e0f637cee796889e886",
+        "actual": "83d7786662aa06336b768f0ce4771512a8038e3fd1603e0f637cee796889e886",
+        "match": true
+      },
+      "production/labs/02-ch2-moving-marbles-teacher-spec.md": {
+        "expected": "8f101d88348c254d9b67e1698bc5739e9da6c650cdb1b27215d617277741bf38",
+        "actual": "8f101d88348c254d9b67e1698bc5739e9da6c650cdb1b27215d617277741bf38",
+        "match": true
+      },
+      "production/premium-notes/01-ch1-energy-causes-change-guided-notes-key.docx": {
+        "expected": "a5172737719305d8f70e34866d2abfae16f6c9471d8a9fe82d48cde5a553ecc2",
+        "actual": "a5172737719305d8f70e34866d2abfae16f6c9471d8a9fe82d48cde5a553ecc2",
+        "match": true
+      },
+      "production/premium-notes/01-ch1-energy-causes-change-guided-notes-key.pdf": {
+        "expected": "909fbbbd2d76cd4cab90ec91fdd9e8f92750771324553f4f82e32d5bc63ca462",
+        "actual": "909fbbbd2d76cd4cab90ec91fdd9e8f92750771324553f4f82e32d5bc63ca462",
+        "match": true
+      },
+      "production/premium-notes/01-ch1-energy-causes-change-guided-notes.docx": {
+        "expected": "c501ca5be423205f7022c87d60f9f598d91ef55dc24439d655439055a08413cb",
+        "actual": "c501ca5be423205f7022c87d60f9f598d91ef55dc24439d655439055a08413cb",
+        "match": true
+      },
+      "production/premium-notes/01-ch1-energy-causes-change-guided-notes.pdf": {
+        "expected": "8fc5e40063f31f5fd3639fb73ae8e93c8e974c2024ea8f19bb3a46762f1c4702",
+        "actual": "8fc5e40063f31f5fd3639fb73ae8e93c8e974c2024ea8f19bb3a46762f1c4702",
+        "match": true
+      },
+      "production/premium-notes/02-ch2-moving-objects-have-energy-guided-notes-key.docx": {
+        "expected": "0897a6c793b0e2ef3c889ca1a0dd07fb5e0ca258daa09ac5e52cfd1e2b97cf4b",
+        "actual": "0897a6c793b0e2ef3c889ca1a0dd07fb5e0ca258daa09ac5e52cfd1e2b97cf4b",
+        "match": true
+      },
+      "production/premium-notes/02-ch2-moving-objects-have-energy-guided-notes-key.pdf": {
+        "expected": "4db7f27de3e76fc44f73aa936c3fd63b0fd52497e6cc692138dc993bac253f0e",
+        "actual": "4db7f27de3e76fc44f73aa936c3fd63b0fd52497e6cc692138dc993bac253f0e",
+        "match": true
+      },
+      "production/premium-notes/02-ch2-moving-objects-have-energy-guided-notes.docx": {
+        "expected": "a3a4dfd3b0474694d15325d1b657cc645097970175ef2aa5665941c32fcaddce",
+        "actual": "a3a4dfd3b0474694d15325d1b657cc645097970175ef2aa5665941c32fcaddce",
+        "match": true
+      },
+      "production/premium-notes/02-ch2-moving-objects-have-energy-guided-notes.pdf": {
+        "expected": "4205b1df3a053979ce4fb14145ba2d864ac0da12c6a46caa8f56daf732ffb9c9",
+        "actual": "4205b1df3a053979ce4fb14145ba2d864ac0da12c6a46caa8f56daf732ffb9c9",
+        "match": true
+      },
+      "production/quizzes/01-ch1-energy-causes-change-quiz-blueprint.md": {
+        "expected": "16265cda83d859e2210c43b05beff4c73648ec59146e987f1b603a41b76b1916",
+        "actual": "16265cda83d859e2210c43b05beff4c73648ec59146e987f1b603a41b76b1916",
+        "match": true
+      },
+      "production/quizzes/01-ch1-energy-causes-change-quiz.docx": {
+        "expected": "207d2ce9522ab53f9c5a91bc5a5a598342a5cf97b35ecf2d5703d0c6bf378304",
+        "actual": "207d2ce9522ab53f9c5a91bc5a5a598342a5cf97b35ecf2d5703d0c6bf378304",
+        "match": true
+      },
+      "production/quizzes/01-ch1-energy-causes-change-quiz.pdf": {
+        "expected": "dc4a51df57c37e4bbccc13c10e6ad2a19fb8b48214b7d8d80ba864159b46d6d3",
+        "actual": "dc4a51df57c37e4bbccc13c10e6ad2a19fb8b48214b7d8d80ba864159b46d6d3",
+        "match": true
+      },
+      "production/quizzes/02-ch2-moving-objects-have-energy-quiz-blueprint.md": {
+        "expected": "319830bc326fd3a5a80fcbb30d04354cf88bc5ad7cfe22330e553715dc479e96",
+        "actual": "319830bc326fd3a5a80fcbb30d04354cf88bc5ad7cfe22330e553715dc479e96",
+        "match": true
+      },
+      "production/quizzes/02-ch2-moving-objects-have-energy-quiz.docx": {
+        "expected": "3f2c36c4fae68bac15984990f4a4fe52e16108c2a29b888ec42c5e15afa77bf6",
+        "actual": "3f2c36c4fae68bac15984990f4a4fe52e16108c2a29b888ec42c5e15afa77bf6",
+        "match": true
+      },
+      "production/quizzes/02-ch2-moving-objects-have-energy-quiz.pdf": {
+        "expected": "33f0ddf28a45f7453050db09df5fc957dbf715ae0544849ac9e0e257fdb4224e",
+        "actual": "33f0ddf28a45f7453050db09df5fc957dbf715ae0544849ac9e0e257fdb4224e",
+        "match": true
+      },
+      "production/slides/01-ch1-energy-causes-change-slide-spec.md": {
+        "expected": "b5171b34b263d77f0aef22c66df259124745e1a6e49d6a338f5756df92e2a6da",
+        "actual": "b5171b34b263d77f0aef22c66df259124745e1a6e49d6a338f5756df92e2a6da",
+        "match": true
+      },
+      "production/slides/01-ch1-energy-causes-change-slides.pdf": {
+        "expected": "4ce8ce22a6e664f106a33efb4c585b601d5697cc6acaa56c45bb46db02355f34",
+        "actual": "4ce8ce22a6e664f106a33efb4c585b601d5697cc6acaa56c45bb46db02355f34",
+        "match": true
+      },
+      "production/slides/01-ch1-energy-causes-change-slides.pptx": {
+        "expected": "5278f96c7dfab4f4b6809a3677f714c566c212e7c74af3d03f502abb77f022f7",
+        "actual": "5278f96c7dfab4f4b6809a3677f714c566c212e7c74af3d03f502abb77f022f7",
+        "match": true
+      },
+      "production/slides/02-ch2-moving-objects-have-energy-slide-spec.md": {
+        "expected": "f679d46c899d020a0d8a6db835ebc318d11ffc205ed2492354ed764d0737256e",
+        "actual": "f679d46c899d020a0d8a6db835ebc318d11ffc205ed2492354ed764d0737256e",
+        "match": true
+      },
+      "production/slides/02-ch2-moving-objects-have-energy-slides.pdf": {
+        "expected": "885327756b245cee1d80d9ca3b3c58fcb8e8930fdc216b3989898d2c77ca16de",
+        "actual": "885327756b245cee1d80d9ca3b3c58fcb8e8930fdc216b3989898d2c77ca16de",
+        "match": true
+      },
+      "production/slides/02-ch2-moving-objects-have-energy-slides.pptx": {
+        "expected": "8a29faf3f55a0f23cb3937a01e8e013b6203dc31768b747abae7dc4a16aeba17",
+        "actual": "8a29faf3f55a0f23cb3937a01e8e013b6203dc31768b747abae7dc4a16aeba17",
+        "match": true
+      },
+      "production/teacher-playbook/unit1-teacher-playbook.docx": {
+        "expected": "1fca035ad7b2f10e7c0acfa087e536dad91abe473443556be0ad191b9b7d0f1c",
+        "actual": "1fca035ad7b2f10e7c0acfa087e536dad91abe473443556be0ad191b9b7d0f1c",
+        "match": true
+      },
+      "production/teacher-playbook/unit1-teacher-playbook.pdf": {
+        "expected": "93f3fdbdf48381d6b38b33c3a317e382e3e3976835aec3290775903c86c842d8",
+        "actual": "93f3fdbdf48381d6b38b33c3a317e382e3e3976835aec3290775903c86c842d8",
+        "match": true
+      },
+      "production/worksheets/01-ch1-energy-causes-change-practice.docx": {
+        "expected": "9c5ec51c029b2f3ad4158dbf11c10a97161ba56b15dce0077739e14345b749fe",
+        "actual": "9c5ec51c029b2f3ad4158dbf11c10a97161ba56b15dce0077739e14345b749fe",
+        "match": true
+      },
+      "production/worksheets/01-ch1-energy-causes-change-practice.pdf": {
+        "expected": "86fa932222276183ce0eb75dee0061aab171835c1d7f207219b4401f2f8c993f",
+        "actual": "86fa932222276183ce0eb75dee0061aab171835c1d7f207219b4401f2f8c993f",
+        "match": true
+      },
+      "production/worksheets/01-ch1-energy-detectives-student.docx": {
+        "expected": "28d877a882a356e4595ae6c73ea28e1bccb56a1afc097953382c5c0d633514c5",
+        "actual": "28d877a882a356e4595ae6c73ea28e1bccb56a1afc097953382c5c0d633514c5",
+        "match": true
+      },
+      "production/worksheets/01-ch1-energy-detectives-student.pdf": {
+        "expected": "3e1239c44ae87f0e16151bd20e41b2fe6ca30b7b52ba5c4f14630075322cd437",
+        "actual": "3e1239c44ae87f0e16151bd20e41b2fe6ca30b7b52ba5c4f14630075322cd437",
+        "match": true
+      },
+      "production/worksheets/02-ch2-absent-student-recovery.docx": {
+        "expected": "ce78447e9b51d0650f52db54c35ee3f84fea92f7f340e0daae9b754480227493",
+        "actual": "ce78447e9b51d0650f52db54c35ee3f84fea92f7f340e0daae9b754480227493",
+        "match": true
+      },
+      "production/worksheets/02-ch2-absent-student-recovery.pdf": {
+        "expected": "d6608da07fc154de16b4d45409de9bdd7b68586c031acfa42605c1e6f54f0b19",
+        "actual": "d6608da07fc154de16b4d45409de9bdd7b68586c031acfa42605c1e6f54f0b19",
+        "match": true
+      },
+      "production/worksheets/02-ch2-friday-flex.docx": {
+        "expected": "6e69325e1470beea8bf38ae4dcebbb6d84a1248405ff91dfc7b465833c16f42c",
+        "actual": "6e69325e1470beea8bf38ae4dcebbb6d84a1248405ff91dfc7b465833c16f42c",
+        "match": true
+      },
+      "production/worksheets/02-ch2-moving-marbles-student.docx": {
+        "expected": "dfa76857e5ba21784f8afaa4ce5b21fae345829f5fed5481872e3889e1fd8df8",
+        "actual": "dfa76857e5ba21784f8afaa4ce5b21fae345829f5fed5481872e3889e1fd8df8",
+        "match": true
+      },
+      "production/worksheets/02-ch2-moving-marbles-student.pdf": {
+        "expected": "0ef2840b41fdbf2cebd7f0c57291cbdeec2efb036188d2ce0a8ea50906161bd5",
+        "actual": "0ef2840b41fdbf2cebd7f0c57291cbdeec2efb036188d2ce0a8ea50906161bd5",
+        "match": true
+      },
+      "production/worksheets/02-ch2-moving-objects-have-energy-practice.docx": {
+        "expected": "ae49af28c65b5db6fd74c6a31eccb33b9e99a7f2523effad1de22a89d577d6aa",
+        "actual": "ae49af28c65b5db6fd74c6a31eccb33b9e99a7f2523effad1de22a89d577d6aa",
+        "match": true
+      },
+      "production/worksheets/02-ch2-moving-objects-have-energy-practice.pdf": {
+        "expected": "5402694d34a5c6054204b1df57f37b74da7a4710231fb01aaa4515f713a6f46c",
+        "actual": "5402694d34a5c6054204b1df57f37b74da7a4710231fb01aaa4515f713a6f46c",
+        "match": true
+      }
+    }
+  },
+  "recursiveDirectoryFingerprints": {
+    "production/releases/chapter-01": {
+      "base_dir": "production/releases/chapter-01",
+      "count": 11,
+      "composite_digest": "2d964a2b6fb0f49db814fc1e7428b16dc459966c5fa6cc1af11df1bc3f13fe37",
+      "files": {
+        "01-ch1-energy-causes-change-guided-notes-key.pdf": {
+          "size": 87048,
+          "sha256": "909fbbbd2d76cd4cab90ec91fdd9e8f92750771324553f4f82e32d5bc63ca462"
+        },
+        "01-ch1-energy-causes-change-guided-notes.pdf": {
+          "size": 83638,
+          "sha256": "8fc5e40063f31f5fd3639fb73ae8e93c8e974c2024ea8f19bb3a46762f1c4702"
+        },
+        "01-ch1-energy-causes-change-practice.pdf": {
+          "size": 65748,
+          "sha256": "86fa932222276183ce0eb75dee0061aab171835c1d7f207219b4401f2f8c993f"
+        },
+        "01-ch1-energy-causes-change-quiz.pdf": {
+          "size": 68319,
+          "sha256": "dc4a51df57c37e4bbccc13c10e6ad2a19fb8b48214b7d8d80ba864159b46d6d3"
+        },
+        "01-ch1-energy-causes-change-slides.pdf": {
+          "size": 817429,
+          "sha256": "4ce8ce22a6e664f106a33efb4c585b601d5697cc6acaa56c45bb46db02355f34"
+        },
+        "01-ch1-energy-causes-change-slides.pptx": {
+          "size": 171502,
+          "sha256": "5278f96c7dfab4f4b6809a3677f714c566c212e7c74af3d03f502abb77f022f7"
+        },
+        "01-ch1-energy-causes-change-teacher-key.pdf": {
+          "size": 170843,
+          "sha256": "5a47ac85f4a4642655e3847e83d10c011e4e570a1e1b600153d9604c05627d0f"
+        },
+        "01-ch1-energy-detectives-student.pdf": {
+          "size": 60622,
+          "sha256": "3e1239c44ae87f0e16151bd20e41b2fe6ca30b7b52ba5c4f14630075322cd437"
+        },
+        "01-ch1-friday-flex.pdf": {
+          "size": 96654,
+          "sha256": "6636b4907e20555a5ce250de6269623fb0a9eade6dbe0eb8c469bf49aac3553b"
+        },
+        "README.md": {
+          "size": 531,
+          "sha256": "271e14389f839867d7444a55bed5d5838fba8ba436b8d8b4a65490d713f5b41c"
+        },
+        "RELEASE_MANIFEST.json": {
+          "size": 3938,
+          "sha256": "4b607cbffdd6abae8cce37f289239bafe1afbd2bb1e4804b9eab2d2d6144468d"
+        }
+      }
+    },
+    "production/releases/chapter-02": {
+      "base_dir": "production/releases/chapter-02",
+      "count": 12,
+      "composite_digest": "b8e39e15c88d31eb8755847ecf705ed5d1be92e569ab7e9417e736c4bc36bbc2",
+      "files": {
+        "02-ch2-absent-student-recovery.pdf": {
+          "size": 50194,
+          "sha256": "c9d7378be18076866deed6e4abcb79be5bdfd5bc9aa64f7d33e65afde386b357"
+        },
+        "02-ch2-friday-flex.pdf": {
+          "size": 57681,
+          "sha256": "22d5794a0b3fa6f312c3b096db4efe853702dc83bad6d234700343b67c77c485"
+        },
+        "02-ch2-moving-marbles-student.pdf": {
+          "size": 44658,
+          "sha256": "edb60f9ef5e0cb8b189e0def3edaa90d89618a814e7e6e065ab4fb27272eda92"
+        },
+        "02-ch2-moving-objects-have-energy-guided-notes-key.pdf": {
+          "size": 78911,
+          "sha256": "4db7f27de3e76fc44f73aa936c3fd63b0fd52497e6cc692138dc993bac253f0e"
+        },
+        "02-ch2-moving-objects-have-energy-guided-notes.pdf": {
+          "size": 76422,
+          "sha256": "4205b1df3a053979ce4fb14145ba2d864ac0da12c6a46caa8f56daf732ffb9c9"
+        },
+        "02-ch2-moving-objects-have-energy-practice.pdf": {
+          "size": 60120,
+          "sha256": "d7790274397289da06ba3a5fbb7bce9c39cf3243cb482ffecf16a4699446cf38"
+        },
+        "02-ch2-moving-objects-have-energy-quiz.pdf": {
+          "size": 64886,
+          "sha256": "cfe4edf7249b6203f08f6a5d501db76b119229b2fd57c389ae59df1371eed0d5"
+        },
+        "02-ch2-moving-objects-have-energy-slides.pdf": {
+          "size": 632610,
+          "sha256": "885327756b245cee1d80d9ca3b3c58fcb8e8930fdc216b3989898d2c77ca16de"
+        },
+        "02-ch2-moving-objects-have-energy-slides.pptx": {
+          "size": 144456,
+          "sha256": "8a29faf3f55a0f23cb3937a01e8e013b6203dc31768b747abae7dc4a16aeba17"
+        },
+        "02-ch2-moving-objects-have-energy-teacher-key.pdf": {
+          "size": 145601,
+          "sha256": "541d37a59af591a191ce7de56025e1b01d5652bf4deaf762f8dc33fd4e4d2eeb"
+        },
+        "README.md": {
+          "size": 506,
+          "sha256": "e0e2abbb69c12a717ea9e6b85bf48c868cb5ea47e9191d45903299a51656837a"
+        },
+        "RELEASE_MANIFEST.json": {
+          "size": 4535,
+          "sha256": "5d749090ff56374666ffd9f364712e3b925a98afc73b6616e9004d7d02997b0b"
+        }
+      }
+    },
+    "curriculum/chapter-01": {
+      "base_dir": "curriculum/chapter-01",
+      "count": 20,
+      "composite_digest": "3d92889748e2715a1a6c14bce5b8ce8b1f89494f0c8bf5f90ecceb959265a161",
+      "files": {
+        "CHAPTER_MANIFEST.md": {
+          "size": 4781,
+          "sha256": "d56796a306d57f6a50b33c911298c22713bb13933827a909bdb0eaddb6572eaa"
+        },
+        "README.md": {
+          "size": 1801,
+          "sha256": "7e97a7fb2aab360af999d3691c19fb31d62808d01d5c2de31b51697f58c78cc4"
+        },
+        "media/.gitkeep": {
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "media/01-ch1-explainer-script.md": {
+          "size": 2452,
+          "sha256": "98a76db3693ba44981967915d1b470763f338f51e0303cf618e12fcf682fdbc8"
+        },
+        "media/01-ch1-media-plan.md": {
+          "size": 2084,
+          "sha256": "ee613ec8cd6929e32f4fa36df4febbe5c027514f02d45fa4601e9680cc7097ac"
+        },
+        "qa/.gitkeep": {
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "qa/acceptance-report.md": {
+          "size": 2110,
+          "sha256": "19dc9d02fb7ffc23d366888919ba5e3af60142ec96785cf7f2f3195e2d4d2c62"
+        },
+        "qa/classroom-simulation.md": {
+          "size": 3102,
+          "sha256": "69cc5e89f686083262477655f3007f93533f8d132130170e19f033740f23fffe"
+        },
+        "qa/cross-artifact-alignment.md": {
+          "size": 2685,
+          "sha256": "02ddaf82d5fa332f5e2a99eda15bd3d3b2ecdbbdee99ae4fca07bfb38a30babd"
+        },
+        "qa/educational-suitability.md": {
+          "size": 1904,
+          "sha256": "df112c66d3f6ca0b203dc8aa6bbbfe750cf7f845153c7c94f4028b6013d2418c"
+        },
+        "qa/source-validation.md": {
+          "size": 2919,
+          "sha256": "f927afa4f8a770f472ec82d02bbcdce4f80d85c0825a8aab5c3f87b6bf65dbca"
+        },
+        "source-map.md": {
+          "size": 4052,
+          "sha256": "cc5f2d30ce2757db77486423e951f5ebfa6664627920c5aa98712fbf85b876f2"
+        },
+        "student/.gitkeep": {
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "student/01-ch1-friday-flex.md": {
+          "size": 3669,
+          "sha256": "14431662f514a5e7de5183971c4c622ac123026ea140983574c1572f7a592a51"
+        },
+        "student/recovery/01-ch1-absent-student-recovery.md": {
+          "size": 3770,
+          "sha256": "3f15aa4dbd2f0fd8880518bb4e419ee77a47acc7c6ae4132a778a6baabcabb95"
+        },
+        "teacher/.gitkeep": {
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "teacher/01-ch1-daily-lessons.md": {
+          "size": 5212,
+          "sha256": "6148d3c8e7f3a8b43e2a8a1e32eebd1141a6e85339695bed899d16b5bd5adce9"
+        },
+        "teacher/01-ch1-energy-causes-change-teacher-map.md": {
+          "size": 4752,
+          "sha256": "411f99698808747f4fa29c348edd10d9ef3ee7e38935ab241e9b32dbf89e6184"
+        },
+        "teacher/01-ch1-supply-prep-guide.md": {
+          "size": 3053,
+          "sha256": "2c160ceda4aa9a781097798939c0a9c05deff99179216f9f1991e0afde0b3d5f"
+        },
+        "teacher/01-ch1-teacher-notes.md": {
+          "size": 3549,
+          "sha256": "6be6c684d3949c42ca83651f33aaad77cb1ff567185a0c3e9498f6d5f09bc44e"
+        }
+      }
+    },
+    "curriculum/chapter-02": {
+      "base_dir": "curriculum/chapter-02",
+      "count": 17,
+      "composite_digest": "51ccfe930a6ba229a66b424cec96ad8d26773d88bac82acea44883b63dde75c3",
+      "files": {
+        "CHAPTER_MANIFEST.md": {
+          "size": 4854,
+          "sha256": "bbca4e24c8da8f90ac3b05d691b3786965e58bf8d1c3c1d0302264ce94293822"
+        },
+        "README.md": {
+          "size": 1745,
+          "sha256": "9c83982b70be9bce5191679e12c4395c9a0d5630614a09b464c158a997215775"
+        },
+        "ch2_anchor_map.json": {
+          "size": 6564,
+          "sha256": "3fc912ba14cfa35fd65d8099224bc9feda1de5f9a9063f48aa3d3e3868f9ea40"
+        },
+        "media/02-ch2-explainer-script.md": {
+          "size": 2094,
+          "sha256": "51cc9d83872333420484ae20baa4ca146b4c1c13aa6ea2bd762f578b0e4baad9"
+        },
+        "media/02-ch2-media-plan.md": {
+          "size": 1786,
+          "sha256": "1d0235278a112354c1651a7ee851951fb4aa81f773feffbddab0d09a5754640c"
+        },
+        "qa/acceptance-report.md": {
+          "size": 2010,
+          "sha256": "6965ea3dcf9e23644348b4972d9f169a27392518eca962966d5e614d2d40d577"
+        },
+        "qa/classroom-simulation.md": {
+          "size": 2669,
+          "sha256": "0d92e569cdf477e1ff495ff5cde18b714491619b483f8a01b198e051c73329cc"
+        },
+        "qa/cross-artifact-alignment.md": {
+          "size": 2233,
+          "sha256": "69a2bac5b7945fa6725f811a2aa5da7209c50c0a4683a368bc203c2d00d1a4a9"
+        },
+        "qa/educational-suitability.md": {
+          "size": 1850,
+          "sha256": "7173844af5d79f7e0d00837f15fd056bfd5ea5db273c24ace959563296a36a31"
+        },
+        "qa/source-validation.md": {
+          "size": 2891,
+          "sha256": "e89445b30ae74ddb8689b80b05661fb4b8e8338b2aec08cb58285b2b95dd80c6"
+        },
+        "source-map.md": {
+          "size": 4580,
+          "sha256": "3eaecf759410edd6a0ebf4d1602225041ec496aa34d2e1776c96230fe2aad254"
+        },
+        "student/02-ch2-friday-flex.md": {
+          "size": 2805,
+          "sha256": "d0aa4183ff13504bc369476b8d08a2230790871d970669849fc0fc9ac5ed97c2"
+        },
+        "student/recovery/02-ch2-absent-student-recovery.md": {
+          "size": 1628,
+          "sha256": "9766c5068d1adb3dfedd1cf1b0b3a09bab9c90e112123b2335994b7a021bc92a"
+        },
+        "teacher/02-ch2-daily-lessons.md": {
+          "size": 4155,
+          "sha256": "43c50835ca14dfcaa1f6ee54e43787a239f153cdaa74af3ddfe1c5092f7da605"
+        },
+        "teacher/02-ch2-moving-objects-have-energy-teacher-map.md": {
+          "size": 4089,
+          "sha256": "d98222afe1227505f310871513e9e118de6fba4dca20c6eeca2d2b96e1f712b8"
+        },
+        "teacher/02-ch2-supply-prep-guide.md": {
+          "size": 2627,
+          "sha256": "d1a01feac5b45897c1e8d37b328eb2a1267f66c57f764558309e1c58d1ac9f15"
+        },
+        "teacher/02-ch2-teacher-notes.md": {
+          "size": 583,
+          "sha256": "6cf807ea4c0e104dcc48776cd128de39ecca9c031329a30847e445b2dc1e33cd"
+        }
+      }
+    }
+  }
+}

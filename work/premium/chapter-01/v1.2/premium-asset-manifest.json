@@ -1,0 +1,447 @@
+{
+  "schema": "ch1-premium-asset-manifest-v2",
+  "chapter": "Chapter 1 · Energy Causes Change",
+  "candidate": "premium-v1.2",
+  "stage": "PHASE_3_ASSET_INTAKE",
+  "generated_at": "2026-10-08",
+  "note": "Phase 3 intake. 14 Chief-approved source-art files copied from ~/Downloads into assets/approved/ under canonical names (originals preserved in Downloads). scienceReview=PASS, artReview=PASS, status=APPROVED. CH1-PENCIL-EVIDENCE-01 is a combined before/after evidence image that supersedes CH1-PENCIL-BEFORE-01 and CH1-PENCIL-AFTER-01 for the nine-slide spike (both remain BRIEF below). CH1-STORED-RUBBER-BAND-01 remains BRIEF (not in the approved set).",
+  "statusLadder": [
+    "BRIEF",
+    "CANDIDATE",
+    "SCIENCE_APPROVED",
+    "ART_APPROVED",
+    "APPROVED",
+    "REJECTED"
+  ],
+  "rule": "No asset may jump directly BRIEF -> APPROVED. APPROVED requires SCIENCE_REVIEW=PASS and ART_REVIEW=PASS.",
+  "assets": [
+    {
+      "assetId": "CH1-HERO-01",
+      "type": "hero",
+      "concept": "chapter opener / Discovery-Evidence",
+      "provider": "illustration+overlay",
+      "sourceBasis": "ADAPTED",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "Ch1 opener (Teacher Packet cover optional)",
+      "usedOnSlides": [
+        1
+      ],
+      "filePath": "assets/approved/CH1-HERO-01.jpg",
+      "sourceBriefHash": "edd096ea1ca0bc04af6b6ce5c3d558bed26169699018fc45feb6b61f6586ae8d",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "candidate-a-lamp-lit-chapter-opener-final.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "aspect": 1.7778
+    },
+    {
+      "assetId": "CH1-DARK-BRIGHT-01",
+      "type": "photo-before-after",
+      "concept": "observable change (dark->bright room)",
+      "provider": "photography",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "slide 4 only",
+      "usedOnSlides": [
+        4
+      ],
+      "filePath": "assets/approved/CH1-DARK-BRIGHT-01.jpg",
+      "sourceBriefHash": "2acba44266db54e7deb316880797a68a767298b90e7bba3252ff8fa68ccf7d1a",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-dark-bright-01.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "aspect": 1.7778
+    },
+    {
+      "assetId": "CH1-PENCIL-BEFORE-01",
+      "type": "photo",
+      "concept": "dull pencil BEFORE (demo)",
+      "provider": "photography",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "PREFERRED",
+      "scienceReview": "REQUIRED",
+      "artReview": "REQUIRED",
+      "status": "BRIEF",
+      "reuseScope": "Ch1 demo",
+      "usedOnSlides": [
+        6,
+        8
+      ],
+      "filePath": null,
+      "sourceBriefHash": "6d64278cb93692018ff8578e96e09a8baadd94e3a8e8ac1167ab0f7cebb5ccb3",
+      "candidateStatus": "CANDIDATE_PENDING",
+      "candidateCount": 0
+    },
+    {
+      "assetId": "CH1-PENCIL-AFTER-01",
+      "type": "photo",
+      "concept": "sharpened pencil AFTER (demo)",
+      "provider": "photography",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "PREFERRED",
+      "scienceReview": "REQUIRED",
+      "artReview": "REQUIRED",
+      "status": "BRIEF",
+      "reuseScope": "Ch1 demo",
+      "usedOnSlides": [
+        8
+      ],
+      "filePath": null,
+      "sourceBriefHash": "d6340eafa9dcdc8d1b5fd64b7a1b1a1a5691f72a1d4dd008994a8382862aa13f",
+      "candidateStatus": "CANDIDATE_PENDING",
+      "candidateCount": 0
+    },
+    {
+      "assetId": "CH1-VOC-ENERGY-01",
+      "type": "vocab-card",
+      "concept": "energy = ability to cause change",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "unit-wide vocab card system",
+      "usedOnSlides": [
+        10,
+        13
+      ],
+      "filePath": "assets/approved/CH1-VOC-ENERGY-01.jpg",
+      "sourceBriefHash": "ac5fe3e966866dab408815a920d07f60f1cc545b69bede34a812af0d553026d9",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-voc-energy-01-refined.jpg",
+      "dimensions": {
+        "width": 1918,
+        "height": 1233
+      },
+      "aspect": 1.5556
+    },
+    {
+      "assetId": "CH1-VOC-CHANGE-01",
+      "type": "vocab-card",
+      "concept": "change = to become different",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "unit-wide vocab card system",
+      "usedOnSlides": [
+        10
+      ],
+      "filePath": "assets/approved/CH1-VOC-CHANGE-01.jpg",
+      "sourceBriefHash": "02175432442c6ffb3a9e11a67401e86181406c69cafe4626ae2b11077092dfd8",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-voc-change-01-refined.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1234
+      },
+      "aspect": 1.5559
+    },
+    {
+      "assetId": "CH1-MODEL-ECE-01",
+      "type": "diagram+photo",
+      "concept": "ENERGY -> CHANGE -> EVIDENCE model",
+      "provider": "diagram+photography",
+      "sourceBasis": "CUSTOM",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "unit synthesis model",
+      "usedOnSlides": [
+        9,
+        14,
+        16
+      ],
+      "filePath": "assets/approved/CH1-MODEL-ECE-01.jpg",
+      "sourceBriefHash": "142504769d350f062b14a1c3fe67b811f9bb1ec5409bec0b60236682c1930ae5",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-model-ece-01.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "aspect": 1.7778
+    },
+    {
+      "assetId": "CH1-FORMS-MOTION-01",
+      "type": "form-card",
+      "concept": "motion energy (five-forms family)",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N2 five-form set (coherent family)",
+      "usedOnSlides": [
+        17
+      ],
+      "filePath": "assets/approved/CH1-FORMS-MOTION-01.jpg",
+      "sourceBriefHash": "84076453d9c7827c1c2e8406b23ce010810ffaf5ac44c42280805a70b462a9f1",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-forms-motion-03.jpg",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-FORMS-SOUND-01",
+      "type": "form-card",
+      "concept": "sound energy (five-forms family)",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N2 five-form set (coherent family)",
+      "usedOnSlides": [
+        17
+      ],
+      "filePath": "assets/approved/CH1-FORMS-SOUND-01.jpg",
+      "sourceBriefHash": "3bfef84ecc09a5a82df13f50e936fda05325d6c7703e711351c0e34da6c5f383",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-forms-sound-02.jpg",
+      "dimensions": {
+        "width": 1536,
+        "height": 1152
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-FORMS-LIGHT-01",
+      "type": "form-card",
+      "concept": "light energy (five-forms family)",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N2 five-form set (coherent family)",
+      "usedOnSlides": [
+        17
+      ],
+      "filePath": "assets/approved/CH1-FORMS-LIGHT-01.jpg",
+      "sourceBriefHash": "9092c601e00710770822aa6f6ebdca69ded42e47e91ede9704c8041810841bc4",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-forms-light-02.jpg",
+      "dimensions": {
+        "width": 1536,
+        "height": 1152
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-FORMS-HEAT-01",
+      "type": "form-card",
+      "concept": "heat energy (five-forms family)",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N2 five-form set (coherent family)",
+      "usedOnSlides": [
+        17
+      ],
+      "filePath": "assets/approved/CH1-FORMS-HEAT-01.jpg",
+      "sourceBriefHash": "22d98713809d50f77c057ac09fd6113549ab148803189ce8f79eaf2f827f4101",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-forms-heat-01.jpg",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-FORMS-ELECTRICAL-01",
+      "type": "form-card",
+      "concept": "electrical energy (five-forms family)",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N2 five-form set (coherent family)",
+      "usedOnSlides": [
+        17
+      ],
+      "filePath": "assets/approved/CH1-FORMS-ELECTRICAL-01.jpg",
+      "sourceBriefHash": "10281974899b2e23a03f57b5fcd97149befcf3608368efe88ec8f567a8b26d2b",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-forms-electrical-01.jpg",
+      "dimensions": {
+        "width": 1440,
+        "height": 1080
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-VOC-STORED-ENERGY-01",
+      "type": "vocab-card",
+      "concept": "stored energy = cause change later",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "unit-wide vocab card system",
+      "usedOnSlides": [
+        20
+      ],
+      "filePath": "assets/approved/CH1-VOC-STORED-ENERGY-01.jpg",
+      "sourceBriefHash": "0edb29384ae2f227fee9fe12cb3f9dd7482c1888879cd18b002b15f653da715f",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-voc-stored-energy-01.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1234
+      },
+      "aspect": 1.5559
+    },
+    {
+      "assetId": "CH1-STORED-BATTERY-01",
+      "type": "photo",
+      "concept": "still battery stores energy",
+      "provider": "photography",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "PREFERRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N3 stored-energy examples",
+      "usedOnSlides": [
+        23
+      ],
+      "filePath": "assets/approved/CH1-STORED-BATTERY-01.jpg",
+      "sourceBriefHash": "45193b93cd2b14682dd7120d66a7c8e5c13e4bfffb5904129c745a7a46afc03c",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-stored-battery-01.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1440
+      },
+      "aspect": 1.3333
+    },
+    {
+      "assetId": "CH1-STORED-RUBBER-BAND-01",
+      "type": "photo/illustration",
+      "concept": "stretched rubber band stores energy",
+      "provider": "illustration/photo",
+      "sourceBasis": "ADAPTED",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "PREFERRED",
+      "scienceReview": "REQUIRED",
+      "artReview": "REQUIRED",
+      "status": "BRIEF",
+      "reuseScope": "N3 stored-energy examples",
+      "usedOnSlides": [
+        25
+      ],
+      "filePath": null,
+      "sourceBriefHash": "026c13996f3f129c88b2e444c00b1e684d51af6eadced09b4c7f95450c26f444",
+      "candidateStatus": "CANDIDATE_PENDING",
+      "candidateCount": 0
+    },
+    {
+      "assetId": "CH1-STORED-RAISED-APPLE-01",
+      "type": "photo/illustration",
+      "concept": "position relates to stored energy",
+      "provider": "illustration/photo",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "PREFERRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "N3 stored-energy examples",
+      "usedOnSlides": [
+        24
+      ],
+      "filePath": "assets/approved/CH1-STORED-RAISED-APPLE-01.jpg",
+      "sourceBriefHash": "0ff59bf02292725ac85ea368a88b2ff56807ce77f2d51899d8c4b429db35e41d",
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-stored-raised-apple-01.jpg",
+      "dimensions": {
+        "width": 1440,
+        "height": 1920
+      },
+      "aspect": 0.75
+    },
+    {
+      "assetId": "CH1-PENCIL-EVIDENCE-01",
+      "type": "photo-before-after",
+      "concept": "pencil before/after evidence (demo)",
+      "provider": "photography",
+      "sourceBasis": "SOURCE",
+      "classroomBlocking": "NO",
+      "premiumCompletion": "REQUIRED",
+      "scienceReview": "PASS",
+      "artReview": "PASS",
+      "status": "APPROVED",
+      "reuseScope": "Ch1 demo (combined before/after evidence image)",
+      "usedOnSlides": [
+        8
+      ],
+      "filePath": "assets/approved/CH1-PENCIL-EVIDENCE-01.jpg",
+      "sourceBriefHash": null,
+      "candidateStatus": "APPROVED",
+      "candidateCount": 0,
+      "sourceFile": "ch1-pencil-evidence-01.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1234
+      },
+      "aspect": 1.5559
+    }
+  ]
+}

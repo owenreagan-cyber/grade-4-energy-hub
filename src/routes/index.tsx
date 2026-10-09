@@ -18,7 +18,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  const [id, setId] = useState(resources[0].id);
+  const [id, setId] = useState("notes");
   const [opts, setOpts] = useState<Opts>({ key: false, school: "", teacher: "" });
   const r = resources.find((x) => x.id === id)!;
 

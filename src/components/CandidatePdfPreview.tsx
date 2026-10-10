@@ -46,8 +46,11 @@ export function CandidatePdfPreview({ showKey }: { showKey: boolean }) {
           container.append(canvas);
         }
         if (!disposed) setStatus("ready");
-      } catch {
-        if (!disposed) setStatus("error");
+      } catch (error) {
+        if (!disposed) {
+          console.error("Candidate PDF preview failed", error);
+          setStatus("error");
+        }
       }
     }
     void render();

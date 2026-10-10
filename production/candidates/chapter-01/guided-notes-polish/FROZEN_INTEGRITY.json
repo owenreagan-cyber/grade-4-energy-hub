@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "production/premium-notes/01-ch1-energy-causes-change-guided-notes-key.docx": "a5172737719305d8f70e34866d2abfae16f6c9471d8a9fe82d48cde5a553ecc2",
+    "production/premium-notes/01-ch1-energy-causes-change-guided-notes-key.pdf": "909fbbbd2d76cd4cab90ec91fdd9e8f92750771324553f4f82e32d5bc63ca462",
+    "production/premium-notes/01-ch1-energy-causes-change-guided-notes.docx": "c501ca5be423205f7022c87d60f9f598d91ef55dc24439d655439055a08413cb",
+    "production/premium-notes/01-ch1-energy-causes-change-guided-notes.pdf": "8fc5e40063f31f5fd3639fb73ae8e93c8e974c2024ea8f19bb3a46762f1c4702",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-guided-notes-key.pdf": "909fbbbd2d76cd4cab90ec91fdd9e8f92750771324553f4f82e32d5bc63ca462",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-guided-notes.pdf": "8fc5e40063f31f5fd3639fb73ae8e93c8e974c2024ea8f19bb3a46762f1c4702",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-practice.pdf": "86fa932222276183ce0eb75dee0061aab171835c1d7f207219b4401f2f8c993f",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-quiz.pdf": "dc4a51df57c37e4bbccc13c10e6ad2a19fb8b48214b7d8d80ba864159b46d6d3",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-slides.pdf": "4ce8ce22a6e664f106a33efb4c585b601d5697cc6acaa56c45bb46db02355f34",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-slides.pptx": "5278f96c7dfab4f4b6809a3677f714c566c212e7c74af3d03f502abb77f022f7",
+    "production/releases/chapter-01/01-ch1-energy-causes-change-teacher-key.pdf": "5a47ac85f4a4642655e3847e83d10c011e4e570a1e1b600153d9604c05627d0f",
+    "production/releases/chapter-01/01-ch1-energy-detectives-student.pdf": "3e1239c44ae87f0e16151bd20e41b2fe6ca30b7b52ba5c4f14630075322cd437",
+    "production/releases/chapter-01/01-ch1-friday-flex.pdf": "6636b4907e20555a5ce250de6269623fb0a9eade6dbe0eb8c469bf49aac3553b",
+    "production/releases/chapter-01/README.md": "271e14389f839867d7444a55bed5d5838fba8ba436b8d8b4a65490d713f5b41c",
+    "production/releases/chapter-01/RELEASE_MANIFEST.json": "4b607cbffdd6abae8cce37f289239bafe1afbd2bb1e4804b9eab2d2d6144468d"
+  },
+  "changed": [],
+  "result": "PASS"
+}

@@ -5,3 +5,4 @@
 - [x] Record independent specialist reviews and verify/remediate the drawing-space finding.
 - [x] Inventory affected artifacts and report local polish decision.
 - [ ] External Grok audit and verified remediation: blocked pending the owner's external read-only audit response.
+- [ ] Restore missing preview startup dependencies and verify the app loads.

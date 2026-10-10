@@ -45,3 +45,6 @@
 
 ## Candidate guided-note production
 - Chapter 1 two-page notes polish uses a separate fixed-row editable DOCX builder and shared student/key geometry, with PDF exports confined to the candidate directory, so frozen classroom bytes remain immutable.
+
+## Web preview toolchain
+- Keep the TanStack/Vite startup scripts and all imported application/UI dependencies in the root package manifest alongside document tooling, so document package changes cannot disable the app preview.

@@ -24,7 +24,7 @@ export function CandidatePdfPreview({ showKey }: { showKey: boolean }) {
         const pdfjs = await import("pdfjs-dist");
         if (disposed || !container) return;
         pdfjs.GlobalWorkerOptions.workerSrc = workerUrl;
-        const task = pdfjs.getDocument(document.url);
+        const task = pdfjs.getDocument({ url: document.url });
         destroy = () => { void task.destroy(); };
         const pdf = await task.promise;
         if (disposed) return;

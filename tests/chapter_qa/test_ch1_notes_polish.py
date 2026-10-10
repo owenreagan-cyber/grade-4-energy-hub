@@ -32,12 +32,14 @@ class CandidateRequirements(unittest.TestCase):
     def test_drawing_area_at_least_three_by_two_inches(self):
         for suffix in ('', '-key'):
             with pymupdf.open(OUT / f'{STEM}{suffix}.pdf') as doc:
-                boxes = [d['rect'] for d in doc[1].get_drawings()
-                         if d['rect'].width >= 216 and d['rect'].height >= 100]
-                self.assertEqual(len(boxes), 2)
-                for box in boxes:
-                    self.assertGreaterEqual(box.width, 216)
-                    self.assertGreaterEqual(box.height, 144)
+                lines = [d['rect'] for d in doc[1].get_drawings()
+                         if 216 <= d['rect'].width <= 300 and d['rect'].height < 1]
+                self.assertEqual(len(lines), 4)
+                for x in sorted({round(line.x0, 1) for line in lines}):
+                    pair = sorted([line for line in lines if round(line.x0, 1) == x], key=lambda r: r.y0)
+                    self.assertEqual(len(pair), 2)
+                    self.assertGreaterEqual(pair[0].width, 216)
+                    self.assertGreaterEqual(pair[1].y0 - pair[0].y0, 144)
 
 if __name__ == '__main__':
     unittest.main()

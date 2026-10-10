@@ -41,7 +41,7 @@ function write(sample,n=2,width=W) {
   return table([width],Array.from({length:n},(_,i)=>row([cell(p(KEY ? (sample[i]||'') : '',12,false,C.primary),width,{borders:{...borders,bottom:line}})],28)));
 }
 function blank(lead,answer,trail='',width=W,blankWidth=1900) {
-  const tail=trail?650:0, leadWidth=width-blankWidth-tail;
+  const tail=trail?(trail==='of energy.'?1700:650):0, leadWidth=width-blankWidth-tail;
   return table([leadWidth,blankWidth,...(tail?[tail]:[])],[row([
     cell(p(lead),leadWidth),cell(p(KEY?answer:'',13.5,KEY,C.primary),blankWidth,{borders:{...borders,bottom:line}}),
     ...(tail?[cell(p(trail),tail)]:[])],28)]);
@@ -69,7 +69,7 @@ function pageOne() {
     blank('energy — the ability to cause','change','.'),blank('change — to become','different','.'),spacer(8),
     head('N1','ENERGY CAUSES CHANGE','Reader pp. 1–2'),
     p('Energy has the ability to cause change.',13.5,true),
-    blank('When you see a change, you are seeing','evidence','of energy.',W,1800),
+    p('When you see a change, you are seeing'),blank('','evidence','of energy.',W,1900),
     chain(['ENERGY','CHANGE','EVIDENCE'],W,true),spacer(14)];
   const L=[head('N2','DIFFERENT FORMS','Reader p. 3',left),
     p('Write one example that shows a change for each form.',12),spacer(4),
@@ -86,23 +86,49 @@ function pageOne() {
     examples(['battery (in a flashlight)','stretched rubber band','raised object (apple)'],[
       'the flashlight lights up','it snaps and makes a sound','it falls down'],right),
     p('Objects also have stored energy because of their',13.5),blank('','position','.',right,1900)];
-  top.push(table([left,gap,right],[new TableRow({cantSplit:true,children:[cell(L,left),cell(p('',1),gap),cell(R,right)]})]));
+  top.push(head('N2','ENERGY OCCURS IN DIFFERENT FORMS','Reader p. 3'),
+    p('Write one example that shows a change for each form.',12),spacer(6),
+    table([3000,W-3000],[row([cell(p('FORM',11.5,true,C.primary),3000),cell(p('ONE EXAMPLE THAT SHOWS A CHANGE',11.5,true,C.primary),W-3000)],22),
+      ...['motion','sound','light','heat','electrical energy'].map((label,i)=>row([
+        cell(p(label,13.5,true,C.primary),3000,{borders:{...borders,bottom:line}}),
+        cell(p(KEY?['a ball rolls across the floor','a drum makes a noise','a flashlight lights up the room','a warm mug warms my hands','a fan spins when plugged in'][i]:'',12,false,C.primary),W-3000,{borders:{...borders,bottom:line}})
+      ],36))]),sampleNote());
   return top;
 }
 function pageTwo() {
-  const out=[p('Chapter 1 · Energy Causes Change',18,true,C.primary,{pageBreakBefore:true}),spacer(10),
+  const left=5148,right=5148;
+  const out=[p('Chapter 1 · Energy Causes Change',18,true,C.primary,{pageBreakBefore:true}),spacer(8),
+    head('V2','VOCABULARY — STORED ENERGY','Reader p. 4'),
+    p('stored energy — energy that has the ability to cause change at a'),blank('','later','time.'),spacer(8)];
+  const n3=[head('N3','OBJECTS CAN STORE ENERGY','Reader pp. 4–5',left),spacer(10),
+    chain(['STORED ENERGY','RELEASE','CHANGE'],left),spacer(6),p('What change could happen later?',12),
+    examples(['battery (in a flashlight)','stretched rubber band','raised object (apple)'],[
+      'the flashlight lights up','it snaps and makes a sound','it falls down'],left),spacer(8),
+    p('Objects also have stored energy because of their',13.5),blank('','position','.',left,1900)];
+  const n4=[
     head('N4','RECOGNIZING EVIDENCE','Reader pp. 1–5'),
     p('Draw a change you observed. Show what it looked like BEFORE and AFTER.',12),spacer(10)];
-  out.push(table([5148,360,5148],[row([
+  n4[0]=head('N4','RECOGNIZING EVIDENCE','Reader pp. 1–5',right);
+  n4.push(table([right],[row([cell([p('BEFORE',12,true,C.primary),p(KEY?'Sample: a dull pencil, long, rounded tip':'',12,false,C.primary)],right,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:100,right:100,top:60}})],144),
+    row([cell([p('AFTER',12,true,C.primary),p(KEY?'Sample: shorter pencil, sharp tip, shavings':'',12,false,C.primary)],right,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:100,right:100,top:60}})],144)]));
+  // Drawing panels are side-by-side across full width instead: two 3.575 x 2 inch zones.
+  const paired=[head('N3','OBJECTS CAN STORE ENERGY','Reader pp. 4–5'),
+    chain(['STORED ENERGY','RELEASE','CHANGE']),
+    table([3800,W-3800],[...['battery (in a flashlight)','stretched rubber band','raised object (apple)'].map((label,i)=>row([
+      cell(p(label,12,true,C.primary),3800,{borders:{...borders,bottom:line}}),
+      cell(p(KEY?['the flashlight lights up','it snaps and makes a sound','it falls down'][i]:'',12,false,C.primary),W-3800,{borders:{...borders,bottom:line}})
+    ],28))]),blank('Objects also have stored energy because of their','position','.'),spacer(6),
+    head('N4','RECOGNIZING EVIDENCE','Reader pp. 1–5'),p('Draw a change you observed. Show what it looked like BEFORE and AFTER.',12),spacer(4)];
+  out.push(...paired,table([5148,360,5148],[row([
     cell([p('BEFORE',14,true,C.primary,{alignment:AlignmentType.CENTER}),spacer(12),
       p(KEY?'Sample: a dull pencil, long, rounded tip':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}}),
     cell(p('',1),360),cell([p('AFTER',14,true,C.primary,{alignment:AlignmentType.CENTER}),spacer(12),
       p(KEY?'Sample: shorter pencil, sharp tip, shavings':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}})
-  ],154)]),spacer(10),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(14),
+  ],144)]),spacer(4),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(6),
   head('CHECK','YOUR THINKING','Reader pp. 1–5'),p('How do we know energy is involved if we cannot see energy itself?',14,true),
   p('Start with: “We know because we see …”',12,false,U.ink_soft),
-  write(['We know because we see a change, like a ball starting to move','or a light turning on.'],3),spacer(14),
-  band('BQ · NOW I THINK  '+BQ,44),spacer(8),
+  write(['We know because we see a change, like a ball starting to move','or a light turning on.'],2),spacer(6),
+  band('BQ · NOW I THINK  '+BQ,36),spacer(4),
   write(['We see evidence of energy when things move, make sound, light up,','heat up, or change shape.'],3),spacer(8),sampleNote());
   return out;
 }

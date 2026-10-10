@@ -12,4 +12,16 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    // Nitro auto-bundles the root `assets/` folder as server assets. That folder holds
+    // curriculum source files (not server data), so drop it from the server bundle.
+    modules: [
+      (nitro: { options: { rootDir: string; serverAssets: { dir: string }[] } }) => {
+        const curriculumAssets = `${nitro.options.rootDir.replace(/\/$/, "")}/assets`;
+        nitro.options.serverAssets = nitro.options.serverAssets.filter(
+          (a) => a.dir.replace(/\/$/, "") !== curriculumAssets,
+        );
+      },
+    ],
+  },
 });

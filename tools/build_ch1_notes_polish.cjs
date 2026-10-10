@@ -41,9 +41,10 @@ function write(sample,n=2,width=W) {
   return table([width],Array.from({length:n},(_,i)=>row([cell(p(KEY ? (sample[i]||'') : '',12,false,C.primary),width,{borders:{...borders,bottom:line}})],28)));
 }
 function blank(lead,answer,trail='',width=W,blankWidth=1900) {
-  const tail=trail?(trail==='of energy.'?1700:650):0, leadWidth=width-blankWidth-tail;
-  return table([leadWidth,blankWidth,...(tail?[tail]:[])],[row([
-    cell(p(lead),leadWidth),cell(p(KEY?answer:'',13.5,KEY,C.primary),blankWidth,{borders:{...borders,bottom:line}}),
+  const leadWidth=lead?Math.min(width-blankWidth-700,Math.ceil(lead.length*6.7*20)):0;
+  const tail=width-leadWidth-blankWidth;
+  return table([...(leadWidth?[leadWidth]:[]),blankWidth,...(tail?[tail]:[])],[row([
+    ...(leadWidth?[cell(p(lead),leadWidth)]:[]),cell(p(KEY?answer:'',13.5,KEY,C.primary),blankWidth,{borders:{...borders,bottom:line}}),
     ...(tail?[cell(p(trail),tail)]:[])],28)]);
 }
 function chain(words,width=W,open=false) {

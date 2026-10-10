@@ -2,6 +2,6 @@
 - [x] Inspect authoritative sources, accepted notes/key, standards and frozen baseline.
 - [x] Build editable two-page candidate notes and geometry-matched teacher key in production/candidates/chapter-01/.
 - [x] Run deterministic QA and visually inspect all four PDF pages in color and grayscale.
-- [ ] Record independent specialist review.
+- [x] Record independent specialist reviews and verify/remediate the drawing-space finding.
 - [x] Inventory affected artifacts and report local polish decision.
 - [ ] External Grok audit and verified remediation: blocked pending the owner's external read-only audit response.

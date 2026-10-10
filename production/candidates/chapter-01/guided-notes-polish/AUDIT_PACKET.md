@@ -7,7 +7,7 @@ Candidate only. Not approved for propagation or frozen release: external Grok ad
 
 ## Verified results
 - Student PDF: **2 US Letter pages**. Teacher PDF: **2 US Letter pages**.
-- Three retained requirement tests pass: two-page limit, student/key drawing geometry equality, no red answer text.
+- Four retained requirement tests pass: two-page limit, student/key drawing geometry equality, no red answer text, drawing panels at least 3 × 2 inches.
 - Both editable DOCX masters pass document validation.
 - Rendered PDF checker: both files PASS, zero warnings/failures.
 - All four final rendered pages and the grayscale comparison inspected: no clipped text, unsupported glyphs or overlapping sections found.
@@ -21,10 +21,11 @@ Candidate only. Not approved for propagation or frozen release: external Grok ad
 4. N1 model touched the preceding blank rule: inserted separation above the model.
 5. N3 example instruction was missing in the initial full-width layout: restored an explicit writing prompt.
 6. Variable open-response wording was not identified globally: added a reserved teacher-only footer disclaimer.
+7. Independent review measured drawing panels at only 1.833 inches high: verified against the original prompt's 2-inch minimum, enlarged them to 2 inches, added a failing-then-passing regression test, and re-inspected all final pages in color and grayscale.
 
 ## Writing-space and tradeoff audit
 - N2 rows: 26 pt; N3 rows: 24 pt; reflection writing-rule pitch: 28 pt.
-- Before/after drawing panels: approximately 3.575 × 1.833 inches each.
+- Before/after drawing panels: approximately 3.575 × 2 inches each.
 - Two pages are denser than the accepted three-page version; no student content cue was added merely for symmetry.
 - No actual student handwriting trial was conducted; dimensional checks do not establish classroom usability empirically.
 

@@ -159,9 +159,6 @@
   }
 }
 
-.diagram-label { font: 700 14px "Baloo 2", sans-serif; fill: var(--ink); }
-.diagram-small { font: 500 12px "Lexend", sans-serif; fill: var(--ink); }
-.sheet { background: var(--paper); color: var(--ink); width: 8.5in; min-height: 11in; margin: 0 auto; padding: 0.5in; border: 3px solid var(--ink); border-radius: 12px; box-shadow: 8px 8px 0 var(--ink); }
 .candidate-pdf-pages { display: grid; gap: 24px; }
 .candidate-pdf-page { display: block; width: 100%; height: auto; aspect-ratio: 17 / 22; background: var(--paper); box-shadow: 0 2px 12px color-mix(in oklch, var(--ink) 15%, transparent); }
 @page candidate { size: letter; margin: 0; }
@@ -169,9 +166,8 @@
 @media print {
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
   .no-print { display: none !important; }
-  body { background: white; }
-  .print-area > * { box-shadow: none; border: none; width: auto; min-height: 0; padding: 0; }
-  .lg\:grid-cols-\[260px_1fr\] { display: block; padding: 0; }
+  body { background: var(--paper); }
+  .candidate-layout { display: block; padding: 0; max-width: none; margin: 0; }
   .candidate-pdf-pages { display: block; }
   .candidate-pdf-page { page: candidate; width: 8.5in; height: 11in; box-shadow: none; break-after: page; }
   .candidate-pdf-page:last-child { break-after: auto; }

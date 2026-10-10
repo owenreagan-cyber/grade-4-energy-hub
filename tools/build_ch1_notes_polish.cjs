@@ -140,7 +140,7 @@ async function build(key) {
     run(key?'    TEACHER KEY':'',9,true,C.primary)
   ],9)]});
   const doc=new Document({creator:'Grade 4 Energy curriculum',title:'Chapter 1 Guided Notes'+(key?' — Teacher Key':''),
-    styles:{default:{document:{run:{font:'Arial',size:27},paragraph:{spacing:{before:0,after:0}}}}},
+    styles:{default:{document:{run:{font:'Arial',size:2},paragraph:{spacing:{before:0,after:0,line:20,lineRule:'exact'}}}}},
     sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:720,bottom:720,left:792,right:792,footer:360}}},
       footers:{default:footer},children:[...pageOne(),...pageTwo(),spacer(1)]}]});
   fs.mkdirSync(OUT,{recursive:true});

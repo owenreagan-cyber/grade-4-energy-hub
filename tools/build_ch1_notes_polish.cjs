@@ -64,13 +64,13 @@ function pageOne() {
   const top=[p('UNIT 1 · ENERGY TRANSFER & TRANSFORMATION',9.5,true,U.ink_soft),spacer(4),
     p('Chapter 1 · Energy Causes Change',23,true,C.primary),p('GUIDED NOTES',11.5,true),spacer(4),
     p('Name: ____________________   Homeroom: ○ 4A  ○ 4B  ○ 4C  ○ 4D',12),spacer(8),
-    band('BQ  '+BQ,26),p('My first thinking',14,true,C.primary),
+    band('BQ  '+BQ,24),p('My first thinking',14,true,C.primary),
     write(['A pencil gets shorter and sharper.']),spacer(4),
     head('V1','VOCABULARY — ENERGY & CHANGE','Reader p. 1'),
     blank('energy — the ability to cause','change','.'),blank('change — to become','different','.'),spacer(8),
     head('N1','ENERGY CAUSES CHANGE','Reader pp. 1–2'),
     p('Energy has the ability to cause change.',13.5,true),
-    p('When you see a change, you are seeing'),blank('','evidence','of energy.',W,1900),
+    blank('When you see a change, you are seeing','evidence','of energy.',W,1900),
     chain(['ENERGY','CHANGE','EVIDENCE'],W,true),spacer(6)];
   const L=[head('N2','DIFFERENT FORMS','Reader p. 3',left),
     p('Write one example that shows a change for each form.',12),spacer(4),
@@ -117,7 +117,7 @@ function pageTwo() {
     table([3800,W-3800],[...['battery (in a flashlight)','stretched rubber band','raised object (apple)'].map((label,i)=>row([
       cell(p(label,12,true,C.primary),3800,{borders:{...borders,bottom:line}}),
       cell(p(KEY?['the flashlight lights up','it snaps and makes a sound','it falls down'][i]:'',12,false,C.primary),W-3800,{borders:{...borders,bottom:line}})
-    ],28))]),p('Objects also have stored energy because of their'),blank('','position','.'),spacer(4),
+    ],28))]),blank('Objects also have stored energy because of their','position','.'),spacer(4),
     head('N4','RECOGNIZING EVIDENCE','Reader pp. 1–5'),p('Draw a change you observed. Show what it looked like BEFORE and AFTER.',12),spacer(4)];
   out.push(...paired,table([5148,360,5148],[row([
     cell([p('BEFORE',14,true,C.primary,{alignment:AlignmentType.CENTER}),spacer(12),
@@ -129,7 +129,7 @@ function pageTwo() {
   p('Start with: “We know because we see …”',12,false,U.ink_soft),
   write(['We know because we see a change, like a ball starting to move','or a light turning on.'],2),spacer(6),
   band('BQ · NOW I THINK  '+BQ,36),spacer(4),
-  write(['We see evidence of energy when things move, make sound, light up,','heat up, or change shape.'],3),spacer(8),sampleNote());
+  write(['We see evidence of energy when things move, make sound, light up,','heat up, or change shape.'],3));
   return out;
 }
 async function build(key) {

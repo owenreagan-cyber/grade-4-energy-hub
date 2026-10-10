@@ -41,7 +41,7 @@ function write(sample,n=2,width=W) {
   return table([width],Array.from({length:n},(_,i)=>row([cell(p(KEY ? (sample[i]||'') : '',12,false,C.primary),width,{borders:{...borders,bottom:line}})],28)));
 }
 function blank(lead,answer,trail='',width=W,blankWidth=1900) {
-  const leadWidth=lead?Math.min(width-blankWidth-700,Math.ceil(lead.length*6.7*20)):0;
+  const leadWidth=lead?Math.min(width-blankWidth-700,Math.ceil(lead.length*7.7*20)):0;
   const tail=width-leadWidth-blankWidth;
   return table([...(leadWidth?[leadWidth]:[]),blankWidth,...(tail?[tail]:[])],[row([
     ...(leadWidth?[cell(p(lead),leadWidth)]:[]),cell(p(KEY?answer:'',13.5,KEY,C.primary),blankWidth,{borders:{...borders,bottom:line}}),
@@ -94,7 +94,7 @@ function pageOne() {
         cell(p(label,13.5,true,C.primary),3000,{borders:{...borders,bottom:line}}),
         cell(p(KEY?['a ball rolls across the floor','a drum makes a noise','a flashlight lights up the room','a warm mug warms my hands','a fan spins when plugged in'][i]:'',12,false,C.primary),W-3000,{borders:{...borders,bottom:line}})
       ],28))]),spacer(6),head('V2','VOCABULARY — STORED ENERGY','Reader p. 4'),
-    p('stored energy — energy that has the ability to cause change at a'),blank('','later','time.'));
+    p('stored energy — energy that has the ability to cause change'),blank('at a','later','time.'));
   return top;
 }
 function pageTwo() {
@@ -114,6 +114,7 @@ function pageTwo() {
   // Drawing panels are side-by-side across full width instead: two 3.575 x 2 inch zones.
   const paired=[head('N3','OBJECTS CAN STORE ENERGY','Reader pp. 4–5'),
     chain(['STORED ENERGY','RELEASE','CHANGE']),
+    p('Write what change could happen later for each example.',12),
     table([3800,W-3800],[...['battery (in a flashlight)','stretched rubber band','raised object (apple)'].map((label,i)=>row([
       cell(p(label,12,true,C.primary),3800,{borders:{...borders,bottom:line}}),
       cell(p(KEY?['the flashlight lights up','it snaps and makes a sound','it falls down'][i]:'',12,false,C.primary),W-3800,{borders:{...borders,bottom:line}})
@@ -124,7 +125,7 @@ function pageTwo() {
       p(KEY?'Sample: a dull pencil, long, rounded tip':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}}),
     cell(p('',1),360),cell([p('AFTER',14,true,C.primary,{alignment:AlignmentType.CENTER}),spacer(12),
       p(KEY?'Sample: shorter pencil, sharp tip, shavings':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}})
-  ],144)]),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(4),
+  ],132)]),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(4),
   p([run('CHECK  ',15,true,C.accent),run('YOUR THINKING',15,true,C.primary)]),p('How do we know energy is involved if we cannot see energy itself?',14,true),
   p('Start with: “We know because we see …”',12,false,U.ink_soft),
   write(['We know because we see a change, like a ball starting to move','or a light turning on.'],2),spacer(6),
@@ -138,7 +139,7 @@ async function build(key) {
   const footer=new Footer({children:[p([
     run('CORE · ADAPTED · Candidate only · Chapter 1 · Guided Notes',9,false,U.ink_soft),
     run(key?'    TEACHER KEY':'',9,true,C.primary)
-  ],9)]});
+  ],9),p(key?'Sample answer — student wording may vary.':'',9,false,C.primary)]});
   const doc=new Document({creator:'Grade 4 Energy curriculum',title:'Chapter 1 Guided Notes'+(key?' — Teacher Key':''),
     styles:{default:{document:{run:{font:'Arial',size:2},paragraph:{spacing:{before:0,after:0,line:20,lineRule:'exact'}}}}},
     sections:[{properties:{page:{size:{width:12240,height:15840},margin:{top:720,bottom:720,left:792,right:792,footer:360}}},

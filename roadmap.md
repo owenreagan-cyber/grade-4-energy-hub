@@ -1,5 +1,7 @@
 # Chapter 1 guided notes candidate
-- [ ] Inspect authoritative sources, accepted notes/key, standards and frozen baseline.
-- [ ] Build editable two-page candidate notes and geometry-matched teacher key in production/candidates/chapter-01/.
-- [ ] Run deterministic QA and specialist review; visually inspect all four PDF pages.
-- [ ] Inventory affected artifacts, external Grok audit where available, verified remediation and final decision.
+- [x] Inspect authoritative sources, accepted notes/key, standards and frozen baseline.
+- [x] Build editable two-page candidate notes and geometry-matched teacher key in production/candidates/chapter-01/.
+- [x] Run deterministic QA and visually inspect all four PDF pages in color and grayscale.
+- [ ] Record independent specialist review.
+- [x] Inventory affected artifacts and report local polish decision.
+- [ ] External Grok audit and verified remediation: blocked pending the owner's external read-only audit response.

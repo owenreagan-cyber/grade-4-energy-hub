@@ -17,7 +17,6 @@ export default defineConfig({
     // curriculum source files (not server data), so drop it from the server bundle.
     modules: [
       (nitro: { options: { rootDir: string; serverAssets: { dir: string }[] } }) => {
-        console.log("[assets-filter]", JSON.stringify(nitro.options.serverAssets));
         const curriculumAssets = `${nitro.options.rootDir.replace(/\/$/, "")}/assets`;
         nitro.options.serverAssets = nitro.options.serverAssets.filter(
           (a) => a.dir.replace(/\/$/, "") !== curriculumAssets,

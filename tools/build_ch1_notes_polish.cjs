@@ -70,7 +70,7 @@ function pageOne() {
     blank('energy — the ability to cause','change','.'),blank('change — to become','different','.'),spacer(8),
     head('N1','ENERGY CAUSES CHANGE','Reader pp. 1–2'),
     p('Energy has the ability to cause change.',13.5,true),
-    blank('When you see a change, you are seeing','evidence','of energy.',W,1900),
+    blank('When you see a change, you are seeing','evidence','of energy.',W,1900),spacer(4),
     chain(['ENERGY','CHANGE','EVIDENCE'],W,true),spacer(6)];
   const L=[head('N2','DIFFERENT FORMS','Reader p. 3',left),
     p('Write one example that shows a change for each form.',12),spacer(4),
@@ -93,8 +93,8 @@ function pageOne() {
       ...['motion','sound','light','heat','electrical energy'].map((label,i)=>row([
         cell(p(label,13.5,true,C.primary),3000,{borders:{...borders,bottom:line}}),
         cell(p(KEY?['a ball rolls across the floor','a drum makes a noise','a flashlight lights up the room','a warm mug warms my hands','a fan spins when plugged in'][i]:'',12,false,C.primary),W-3000,{borders:{...borders,bottom:line}})
-      ],28))]),spacer(6),head('V2','VOCABULARY — STORED ENERGY','Reader p. 4'),
-    p('stored energy — energy that has the ability to cause change'),blank('at a','later','time.'));
+      ],26))]),spacer(6),head('V2','VOCABULARY — STORED ENERGY','Reader p. 4'),
+    p('stored energy — energy that has the ability to cause change'),blank('at a','later','time.'),spacer(6));
   return top;
 }
 function pageTwo() {

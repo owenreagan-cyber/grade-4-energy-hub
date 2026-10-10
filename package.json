@@ -8,7 +8,7 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@lovable.dev/vite-tanstack-config": "^2.26.6",
+    "@lovable.dev/vite-tanstack-config": "2.25.3",
     "@marp-team/marp-cli": "^4.5.1",
     "@testing-library/jest-dom": "^7.0.1",
     "@testing-library/react": "^16.3.3",
@@ -70,6 +70,7 @@
     "recharts": "^2",
     "sonner": "^2.0.8",
     "tailwind-merge": "^3.7.0",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "nitro": "3.0.260603-beta"
   }
 }

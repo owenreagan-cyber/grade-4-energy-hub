@@ -61,8 +61,8 @@ export function CandidatePdfPreview({ showKey }: { showKey: boolean }) {
     <section className="candidate-preview min-w-0" aria-label="Chapter 1 candidate PDF">
       <div className="no-print mb-4 flex flex-wrap items-center justify-between gap-3 border-b border-ink/20 pb-4">
         <div>
-          <h2 className="font-display text-2xl font-bold">Energy Causes Change</h2>
-          <p className="text-sm text-muted-foreground">Chapter 1 · Candidate · {document.label}{pageCount > 0 && ` · ${pageCount} pages`}</p>
+          <h2 className="font-display text-2xl font-bold">Chapter 1 · Energy Causes Change</h2>
+          <p className="text-sm text-muted-foreground">Prompt 2 · Candidate · {document.label}{pageCount > 0 && ` · ${pageCount} pages`}</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Button variant="outline" onClick={() => window.print()} disabled={status !== "ready"}><Printer />Print</Button>

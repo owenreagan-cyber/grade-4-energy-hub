@@ -49,3 +49,4 @@
 ## Web preview toolchain
 - Keep the TanStack/Vite startup scripts and all imported application/UI dependencies in the root package manifest alongside document tooling, so document package changes cannot disable the app preview.
 - Import candidate PDFs from their canonical candidate directory as Vite asset URLs and render them with dynamically loaded PDF.js; downloads use original bytes and printing uses full-letter page canvases, leaving frozen artifacts unchanged.
+- The app's resource catalog consists solely of canonical Prompt Pack PDF assets, not separately authored worksheet data or HTML replicas, to prevent curriculum drift.

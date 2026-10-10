@@ -42,3 +42,6 @@
 ## Process
 - **No commit or push unless explicitly requested.** No Git remote.
 - Never start watch-mode runners or duplicate servers; prefer one-shot commands.
+
+## Candidate guided-note production
+- Chapter 1 two-page notes polish uses a separate fixed-row editable DOCX builder and shared student/key geometry, with PDF exports confined to the candidate directory, so frozen classroom bytes remain immutable.

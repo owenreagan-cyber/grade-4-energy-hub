@@ -29,5 +29,15 @@ class CandidateRequirements(unittest.TestCase):
                 r, g, b = color >> 16, (color >> 8) & 255, color & 255
                 self.assertFalse(r > 130 and r > g * 1.8 and r > b * 1.8)
 
+    def test_drawing_area_at_least_three_by_two_inches(self):
+        for suffix in ('', '-key'):
+            with pymupdf.open(OUT / f'{STEM}{suffix}.pdf') as doc:
+                boxes = [d['rect'] for d in doc[1].get_drawings()
+                         if d['rect'].width >= 216 and d['rect'].height >= 100]
+                self.assertEqual(len(boxes), 2)
+                for box in boxes:
+                    self.assertGreaterEqual(box.width, 216)
+                    self.assertGreaterEqual(box.height, 144)
+
 if __name__ == '__main__':
     unittest.main()

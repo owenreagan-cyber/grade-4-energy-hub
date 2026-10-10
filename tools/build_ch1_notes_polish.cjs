@@ -125,11 +125,11 @@ function pageTwo() {
       p(KEY?'Sample: a dull pencil, long, rounded tip':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}}),
     cell(p('',1),360),cell([p('AFTER',14,true,C.primary,{alignment:AlignmentType.CENTER}),spacer(12),
       p(KEY?'Sample: shorter pencil, sharp tip, shavings':'',12,false,C.primary)],5148,{borders:{top:line,bottom:line,left:line,right:line},margins:{left:120,right:120,top:100}})
-  ],132)]),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(4),
+  ],144)]),p('What changed?',14,true),write(['The pencil got shorter and sharper.']),spacer(4),
   p([run('CHECK  ',15,true,C.accent),run('YOUR THINKING',15,true,C.primary)]),p('How do we know energy is involved if we cannot see energy itself?',14,true),
   p('Start with: “We know because we see …”',12,false,U.ink_soft),
   write(['We know because we see a change, like a ball starting to move','or a light turning on.'],2),spacer(6),
-  band('BQ · NOW I THINK  '+BQ,36),spacer(4),
+  band('BQ · NOW I THINK  '+BQ,36),
   write(['We see evidence of energy when things move, make sound, light up,','heat up, or change shape.'],3));
   return out;
 }

@@ -1,5 +1,5 @@
 # Chapter 1 guided notes candidate
-- [ ] Remove generic app resources; make Prompt 2 candidate the exclusive default and verify live PDF fidelity, toggle, print and download.
+- [x] Remove generic app resources; Prompt 2 candidate is the exclusive default; live PDF pages, student/key switching, identical download bytes and two-page letter printing verified.
 - [x] Add Chapter 1 candidate notes/key PDF preview, toggle, print and download; live toggles, original download bytes, and two-page letter printing verified.
 - [x] Inspect authoritative sources, accepted notes/key, standards and frozen baseline.
 - [x] Build editable two-page candidate notes and geometry-matched teacher key in production/candidates/chapter-01/.

@@ -1,4 +1,5 @@
 # Chapter 1 guided notes candidate
+- [x] Add Chapter 1 candidate notes/key PDF preview, toggle, print and download; live toggles, original download bytes, and two-page letter printing verified.
 - [x] Inspect authoritative sources, accepted notes/key, standards and frozen baseline.
 - [x] Build editable two-page candidate notes and geometry-matched teacher key in production/candidates/chapter-01/.
 - [x] Run deterministic QA and visually inspect all four PDF pages in color and grayscale.

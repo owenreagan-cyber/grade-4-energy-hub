@@ -1,0 +1,17 @@
+{
+  "name": "Haunted Thales Academy - Energy Elixir",
+  "short_name": "Energy Elixir",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#241632",
+  "theme_color": "#241632",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
